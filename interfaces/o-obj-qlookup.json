@@ -5,5 +5,12 @@
     "category": [
       "Open Library - Conversions"
     ]
+  }, 
+  "o.ceil": {
+    "digest": "Ceil input float to int",
+    "module": "openlibrary",
+    "category": [
+      "Open Library - Conversions"
+    ]
   }
 }

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 677.0, 244.0, 118.0, 224.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -24,9 +24,9 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "Ceil float input to int",
-		"digest" : "Ceil input numbers",
-		"tags" : "OI Max Math Conversions",
+		"description" : "Round float numbers to the upper integer value (ex: 0.1 = 1, 1.7 = 2, 2.01 = 3).",
+		"digest" : "Ceil input float to int",
+		"tags" : "Open-Library Conversions",
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -45,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 15.0, 25.0, 25.0 ]
 				}
 
@@ -161,7 +161,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

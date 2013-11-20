@@ -46,7 +46,7 @@
 	</outletlist>
 	<!--ARGUMENTS-->
 	<objarglist>
-		<objarg name="starting-point" optional="1" type="any">
+		<objarg name="starting-point" optional="1" type="0/1">
 			<digest>
 				Starting point (0/1)
 			</digest>
