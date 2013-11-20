@@ -1,7 +1,7 @@
 {
   "o.button2switch": {
-    "digest": "Similar to togedge.",
-    "module": "o",
+    "digest": "Turn input button into a switch",
+    "module": "openlibrary",
     "category": [
       "Open Library - Conversions"
     ]

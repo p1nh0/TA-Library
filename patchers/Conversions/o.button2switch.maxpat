@@ -24,7 +24,7 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "Similar to togedge. Each 0/1 input sequence will cycle the output from 0 to 1.",
+		"description" : "Each 0/1 input sequence will cycle the output from 0 to 1 (similar to togedge).",
 		"digest" : "Turn input button into a switch",
 		"tags" : "Open-Library Conversions",
 		"boxes" : [ 			{

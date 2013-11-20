@@ -1,2 +1,2 @@
-max oblist OpenLibrary o.button2switch;
+max oblist openlibrary o.button2switch;
 
