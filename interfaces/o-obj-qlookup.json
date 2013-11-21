@@ -33,5 +33,12 @@
     "category": [
       "Math"
     ]
+  },
+  "o.symbolchange": {
+    "digest": "Filter out symbol repetitions",
+    "module": "max",
+    "category": [
+      "Control"
+    ]
   } 
 }

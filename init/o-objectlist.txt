@@ -3,3 +3,4 @@ max oblist openlibrary o.ceil;
 max oblist openlibrary o.deg2rad; 
 max oblist openlibrary o.f2i;
 max oblist openlibrary o.rad2deg; 
+max oblist openlibrary o.symbolchange;
