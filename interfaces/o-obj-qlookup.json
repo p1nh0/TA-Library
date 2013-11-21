@@ -19,5 +19,12 @@
     "category": [
       "Open Library - Conversions"
     ]
+  },
+  "o.deg2rad": {
+    "digest": "Convert degrees to radians",
+    "module": "openlibrary",
+    "category": [
+      "Open Library - Conversions"
+    ]
   }
 }
