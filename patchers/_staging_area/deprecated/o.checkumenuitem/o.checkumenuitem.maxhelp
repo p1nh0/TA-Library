@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 700.0, 454.0 ],
+		"rect" : [ 324.0, 163.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -39,6 +40,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 67.0, 151.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"filename" : "helpstarter",
 						"parameter_enable" : 0
 					}
 ,
@@ -58,11 +60,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 324.0, 189.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -84,6 +87,91 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-26",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 85.0, 144.5, 221.0, 51.0 ],
+									"text" : "Because the umenu will output its values when queried through o.checkmenuitems. And because you can achieve almost the same thing with 'getattr'"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 85.0, 124.5, 92.0, 20.0 ],
+									"text" : "DEPRECATED",
+									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-22",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 324.0, 285.0, 60.0, 19.0 ],
+									"text" : "one, two"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 365.0, 165.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 365.0, 195.0, 82.0, 21.0 ],
+									"text" : "getattr items"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 255.0, 320.0, 50.0, 19.0 ],
+									"text" : "two"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-14",
@@ -91,8 +179,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 268.75, 140.0, 40.0, 19.0 ],
-									"presentation_rect" : [ 257.75, 140.0, 0.0, 0.0 ],
+									"patching_rect" : [ 168.75, 215.0, 40.0, 19.0 ],
 									"text" : "three"
 								}
 
@@ -106,8 +193,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.75, 140.0, 32.5, 19.0 ],
-									"presentation_rect" : [ 224.0, 140.0, 0.0, 0.0 ],
+									"patching_rect" : [ 125.75, 215.0, 32.5, 19.0 ],
 									"text" : "two"
 								}
 
@@ -121,20 +207,21 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 185.0, 140.0, 32.5, 19.0 ],
+									"patching_rect" : [ 85.0, 215.0, 32.5, 19.0 ],
 									"text" : "one"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
 									"id" : "obj-10",
-									"maxclass" : "toggle",
+									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 270.0, 215.0, 20.0, 20.0 ]
+									"numoutlets" : 0,
+									"patching_rect" : [ 85.0, 305.0, 100.0, 21.0 ],
+									"text" : "print @popup 1"
 								}
 
 							}
@@ -149,7 +236,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 65.0, 190.0, 105.0, 21.0 ]
+									"patching_rect" : [ 200.0, 265.0, 105.0, 21.0 ]
 								}
 
 							}
@@ -164,9 +251,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 185.0, 190.0, 104.0, 18.0 ],
-									"text" : "oi.checkumenuitem"
+									"outlettype" : [ "int", "int" ],
+									"patching_rect" : [ 85.0, 265.0, 101.0, 18.0 ],
+									"text" : "o.checkumenuitem"
 								}
 
 							}
@@ -174,6 +261,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -188,7 +276,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -207,7 +295,6 @@
 									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"id" : "obj-6",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -222,6 +309,7 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
+									"ignoreclick" : 1,
 									"jsarguments" : [ "oi.checkmenuitem" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
@@ -262,10 +350,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
+									"destination" : [ "obj-22", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-7", 1 ]
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -274,8 +362,43 @@
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 194.5, 217.0, 177.5, 217.0, 177.5, 180.0, 74.5, 180.0 ],
+									"source" : [ "obj-18", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 1 ]
 								}
 
 							}
@@ -284,23 +407,9 @@
 									"destination" : [ "obj-7", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 74.5, 243.0, 300.0, 243.0, 300.0, 180.0, 279.5, 180.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
-							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "helpdetails.js",
-								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "oi.checkumenuitem.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system/general utilities",
-								"type" : "JSON",
-								"implicit" : 1
 							}
  ]
 					}
@@ -308,14 +417,14 @@
 					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 13.0,
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -329,6 +438,7 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "oi.checkmenuitem" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -351,11 +461,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -376,21 +487,20 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 110.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -403,29 +513,29 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.checkumenuitem.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/API system/general utilities",
-				"patcherrelativepath" : "../API system/general utilities",
+				"name" : "o.checkumenuitem.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data",
+				"patcherrelativepath" : "../patchers/o-max/Data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
