@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 478.0, 422.0, 191.0, 279.0 ],
@@ -61,7 +62,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 160.0, 25.0, 25.0 ]
+					"patching_rect" : [ 111.0, 160.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -74,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 132.0, 58.0, 18.0 ],
+					"patching_rect" : [ 51.0, 132.0, 66.0, 18.0 ],
 					"text" : "pack #1 0."
 				}
 
@@ -131,7 +132,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 4.782715, 25.0, 25.0 ]
+					"patching_rect" : [ 98.0, 4.782715, 25.0, 25.0 ]
 				}
 
 			}
@@ -229,6 +230,7 @@
 					"destination" : [ "obj-116", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 107.5, 41.391357, 24.5, 41.391357 ],
 					"source" : [ "obj-127", 0 ]
 				}
 
@@ -260,8 +262,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
