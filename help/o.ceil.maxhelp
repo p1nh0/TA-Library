@@ -70,12 +70,55 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
+									"hidden" : 1,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 96.5, 170.0, 76.0, 19.0 ],
+									"text" : "loadmess 0.1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 246.75, 290.0, 32.5, 17.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.25, 265.0, 37.0, 17.0 ],
+									"text" : "int $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
 									"frgb" : 0.0,
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 335.0, 300.0, 30.0, 19.0 ],
+									"patching_rect" : [ 216.5, 290.0, 30.0, 19.0 ],
 									"text" : "floor"
 								}
 
@@ -89,7 +132,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 234.0, 300.0, 30.0, 19.0 ],
+									"patching_rect" : [ 115.5, 290.0, 30.0, 19.0 ],
 									"text" : "ceil "
 								}
 
@@ -104,7 +147,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 285.0, 300.0, 48.0, 19.0 ]
+									"patching_rect" : [ 166.5, 290.0, 48.0, 19.0 ]
 								}
 
 							}
@@ -117,8 +160,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 187.0, 300.0, 47.0, 17.0 ],
-									"text" : "2"
+									"patching_rect" : [ 68.5, 290.0, 47.0, 17.0 ],
+									"text" : "1"
 								}
 
 							}
@@ -132,7 +175,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 215.0, 215.0, 46.0, 19.0 ]
+									"patching_rect" : [ 96.5, 205.0, 46.0, 19.0 ]
 								}
 
 							}
@@ -148,7 +191,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 215.0, 260.0, 36.0, 18.0 ],
+									"patching_rect" : [ 96.5, 250.0, 36.0, 18.0 ],
 									"text" : "o.ceil"
 								}
 
@@ -193,6 +236,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -205,7 +266,17 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 224.5, 252.5, 294.5, 252.5 ],
+									"midpoints" : [ 106.0, 242.5, 176.0, 242.5 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 106.0, 237.0, 269.75, 237.0 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -310,8 +381,8 @@
 			}
 , 			{
 				"name" : "o.ceil.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/Conversions",
-				"patcherrelativepath" : "../patchers/Conversions",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Math",
+				"patcherrelativepath" : "../patchers/o-max/Math",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -1,30 +1,37 @@
 {
   "o.button2switch": {
     "digest": "Turn input button into a switch",
-    "module": "openlibrary",
+    "module": "max",
     "category": [
-      "Open Library - Conversions"
+      "Control"
     ]
   }, 
   "o.ceil": {
     "digest": "Ceil input float to int",
-    "module": "openlibrary",
+    "module": "max",
     "category": [
-      "Open Library - Conversions"
-    ]
-  },
-  "o.rad2deg": {
-    "digest": "Convert radians to degrees",
-    "module": "openlibrary",
-    "category": [
-      "Open Library - Conversions"
+      "Math"
     ]
   },
   "o.deg2rad": {
     "digest": "Convert degrees to radians",
-    "module": "openlibrary",
+    "module": "max",
     "category": [
-      "Open Library - Conversions"
+      "Math"
     ]
-  }
+  },
+  "o.f2i": {
+    "digest": "Float to integer",
+    "module": "max",
+    "category": [
+      "Data"
+    ]
+  },
+  "o.rad2deg": {
+    "digest": "Convert radians to degrees",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  } 
 }

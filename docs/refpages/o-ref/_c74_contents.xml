@@ -2,7 +2,8 @@
 <root>
 	<refpage name='o.button2switch.maxref.xml' />
 	<refpage name='o.ceil.maxref.xml' />
-	<refpage name='o.rad2deg.maxref.xml' />
 	<refpage name='o.deg2rad.maxref.xml' />
+	<refpage name='o.f2i.maxref.xml' />
+	<refpage name='o.rad2deg.maxref.xml' />
 
 </root>
