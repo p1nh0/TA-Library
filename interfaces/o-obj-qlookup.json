@@ -20,8 +20,22 @@
       "Math"
     ]
   },
+  "o.emptymessagefilter": {
+    "digest": "Filter Max's empty messages",
+    "module": "max",
+    "category": [
+      "Data"
+    ]
+  },
   "o.f2i": {
     "digest": "Float to integer",
+    "module": "max",
+    "category": [
+      "Data"
+    ]
+  },
+  "o.pattrlist": {
+    "digest": "Bind to multiple pattr objects",
     "module": "max",
     "category": [
       "Data"

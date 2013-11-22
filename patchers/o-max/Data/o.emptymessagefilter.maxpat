@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 50.0, 94.0, 181.0, 179.0 ],
@@ -23,12 +24,12 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
+		"description" : "This object addresses a very specific problem happening when a pattr object is bound to an empty umenu object. This abstraction is not specific to umenu nor pattr, so you can use it whenever you have a problem with Max sending empty messages.",
+		"digest" : "Filter Max's empty messages",
+		"tags" : "Open-Library Data",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "everything except blank messages",
 					"id" : "obj-2",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -39,7 +40,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "connection from pattr leftmost inlet",
 					"id" : "obj-1",
 					"maxclass" : "inlet",
 					"numinlets" : 0,

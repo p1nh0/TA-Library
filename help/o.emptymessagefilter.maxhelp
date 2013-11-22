@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 522.0, 198.0, 700.0, 454.0 ],
+		"rect" : [ 54.0, 94.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -32,24 +33,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 135.0, 168.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js helpstarter oi.emptymessagefilter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -58,14 +41,15 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 54.0, 120.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
@@ -88,27 +72,13 @@
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-34",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 362.5, 160.0, 312.5, 40.0 ],
-									"presentation_rect" : [ 381.0, 125.5, 0.0, 0.0 ],
+									"patching_rect" : [ 352.5, 192.5, 312.5, 40.0 ],
 									"text" : "test it…"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-33",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 375.0, 630.0, 37.0 ],
-									"text" : "When bound to an umenu object, pattr will send an empty message whenever the umenu object is cleared.\n(for MaxMSP 6.0.5)"
 								}
 
 							}
@@ -117,12 +87,13 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-31",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 145.0, 147.5, 159.0, 55.0 ],
+									"patching_rect" : [ 135.0, 180.0, 159.0, 54.0 ],
 									"text" : "bang and watch pattr and oi.emptymessage outputs"
 								}
 
@@ -142,7 +113,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 100.0, 165.0, 20.0, 20.0 ],
+									"patching_rect" : [ 90.0, 197.5, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -159,8 +130,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 400.0, 208.5, 126.0, 19.0 ],
-									"presentation_rect" : [ 351.0, 328.0, 0.0, 0.0 ],
+									"patching_rect" : [ 390.0, 241.0, 126.0, 19.0 ],
 									"text" : "append a, append b"
 								}
 
@@ -174,7 +144,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 362.5, 208.5, 39.0, 19.0 ],
+									"patching_rect" : [ 352.5, 241.0, 39.0, 19.0 ],
 									"text" : "clear"
 								}
 
@@ -186,7 +156,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 120.0, 310.0, 20.0, 20.0 ]
+									"patching_rect" : [ 110.0, 342.5, 20.0, 20.0 ]
 								}
 
 							}
@@ -199,7 +169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 310.0, 50.0, 19.0 ]
+									"patching_rect" : [ 125.0, 342.5, 50.0, 19.0 ]
 								}
 
 							}
@@ -210,7 +180,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 120.0, 160.0, 30.0, 30.0 ]
+									"patching_rect" : [ 110.0, 192.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -221,7 +191,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 17.0, 270.0, 20.0, 20.0 ]
+									"patching_rect" : [ 7.0, 302.5, 20.0, 20.0 ]
 								}
 
 							}
@@ -234,7 +204,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 270.0, 77.0, 19.0 ]
+									"patching_rect" : [ 27.0, 302.5, 77.0, 19.0 ]
 								}
 
 							}
@@ -247,14 +217,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 120.0, 225.0, 160.0, 21.0 ],
+									"patching_rect" : [ 110.0, 257.5, 160.0, 21.0 ],
 									"restore" : [ "" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "pattr @bindto emptymenu",
-									"varname" : "u346006063"
+									"varname" : "u524000200"
 								}
 
 							}
@@ -269,7 +239,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 500.0, 308.5, 100.0, 21.0 ],
+									"patching_rect" : [ 490.0, 341.0, 100.0, 21.0 ],
 									"pattrmode" : 1,
 									"varname" : "umenu"
 								}
@@ -284,7 +254,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 455.5, 238.5, 108.0, 21.0 ],
+									"patching_rect" : [ 445.5, 271.0, 108.0, 21.0 ],
 									"restore" : [ "" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
@@ -297,8 +267,8 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
-									"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -307,70 +277,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 270.0, 116.0, 18.0 ],
-									"text" : "oi.emptymessagefilter"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 68.0, 130.0, 21.0 ],
-									"prototypename" : "oi.help_digest",
-									"text" : "Pattr utility "
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"id" : "obj-5",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 89.0, 250.0, 21.0 ],
-									"prototypename" : "oi.help_digest",
-									"text" : "Filter empty messages from a pattr object",
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 90.0,
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"id" : "obj-6",
-									"ignoreclick" : 1,
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 700.0, 80.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"border" : 0,
-									"filename" : "helpdetails.js",
-									"id" : "obj-2",
-									"jsarguments" : [ "oi.emptymessagefilter" ],
-									"maxclass" : "jsui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 480.0, 55.0 ]
+									"patching_rect" : [ 110.0, 302.5, 113.0, 18.0 ],
+									"text" : "o.emptymessagefilter"
 								}
 
 							}
@@ -385,7 +293,35 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 520.0, 278.5, 125.0, 21.0 ]
+									"patching_rect" : [ 510.0, 311.0, 125.0, 21.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"autofit" : 1,
+									"id" : "obj-5",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 520.0, 0.0, 180.0, 60.0 ],
+									"pic" : "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/media/logo.png"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetails.js",
+									"id" : "obj-2",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "o.emptymessagefilter" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 0.0, 0.0, 550.0, 145.0 ]
 								}
 
 							}
@@ -440,7 +376,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 372.0, 267.5, 509.5, 267.5 ],
+									"midpoints" : [ 362.0, 300.0, 499.5, 300.0 ],
 									"source" : [ "obj-25", 0 ]
 								}
 
@@ -450,7 +386,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 409.5, 267.5, 509.5, 267.5 ],
+									"midpoints" : [ 399.5, 300.0, 499.5, 300.0 ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -482,53 +418,25 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "helpdetails.js",
-								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "oi.emptymessagefilter.maxpat",
-								"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"description" : "",
 						"digest" : "",
 						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
-						"description" : "",
 						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
 					"text" : "p basic",
 					"varname" : "basic_tab"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpname.js",
-					"id" : "obj-4",
-					"jsarguments" : [ "oi.emptymessagefilter" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 305.0, 55.0 ]
 				}
 
 			}
@@ -544,11 +452,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -569,21 +478,20 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 110.0, 50.0, 18.0 ],
+					"patching_rect" : [ 20.0, 110.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -595,31 +503,24 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "oi.emptymessagefilter.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/pattr_extensions",
-				"patcherrelativepath" : "../pattr_extensions",
+				"name" : "logo.png",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o.emptymessagefilter.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data",
+				"patcherrelativepath" : "../patchers/o-max/Data",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]
