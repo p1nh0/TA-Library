@@ -48,6 +48,14 @@
       "Math"
     ]
   },
+  "o.ramp": {
+    "digest": "Convert radians to degrees",
+    "module": "max",
+    "category": [
+      "Data",
+      "Timing"
+    ]
+  },
   "o.symbolchange": {
     "digest": "Filter out symbol repetitions",
     "module": "max",

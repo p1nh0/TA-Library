@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 478.0, 422.0, 191.0, 279.0 ],
+		"rect" : [ 478.0, 422.0, 417.0, 369.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,12 +29,27 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 51.0, 36.782715, 68.0, 18.0 ],
+					"text" : "route int float"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "(bang) ramp reached the end",
 					"id" : "obj-3",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 240.0, 25.0, 25.0 ]
+					"patching_rect" : [ 86.0, 300.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -47,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 15.0, 75.0, 32.5, 18.0 ],
+					"patching_rect" : [ 15.0, 135.0, 32.5, 18.0 ],
 					"text" : "+ 1"
 				}
 
@@ -62,7 +77,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.0, 160.0, 25.0, 25.0 ]
+					"patching_rect" : [ 111.0, 220.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -75,8 +90,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 132.0, 66.0, 18.0 ],
-					"text" : "pack #1 0."
+					"patching_rect" : [ 51.0, 192.0, 59.0, 18.0 ],
+					"text" : "pack #2 #1"
 				}
 
 			}
@@ -89,8 +104,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.0, 194.782715, 60.0, 18.0 ],
-					"text" : "line #1 #2"
+					"patching_rect" : [ 51.0, 254.782715, 54.0, 18.0 ],
+					"text" : "line #2 #3"
 				}
 
 			}
@@ -103,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 15.0, 50.0, 32.5, 18.0 ],
+					"patching_rect" : [ 15.0, 110.0, 32.5, 18.0 ],
 					"text" : "> 0."
 				}
 
@@ -117,8 +132,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 105.0, 55.0, 18.0 ],
-					"text" : "gate 2 1"
+					"patching_rect" : [ 15.0, 165.0, 55.0, 18.0 ],
+					"text" : "gate 2 2"
 				}
 
 			}
@@ -132,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 4.782715, 25.0, 25.0 ]
+					"patching_rect" : [ 91.0, 64.782715, 25.0, 25.0 ]
 				}
 
 			}
@@ -157,7 +172,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 240.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 300.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -230,7 +245,7 @@
 					"destination" : [ "obj-116", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 107.5, 41.391357, 24.5, 41.391357 ],
+					"midpoints" : [ 100.5, 101.391357, 24.5, 101.391357 ],
 					"source" : [ "obj-127", 0 ]
 				}
 
@@ -246,7 +261,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-114", 1 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-128", 0 ]
@@ -262,7 +277,39 @@
 				}
 
 			}
- ]
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 85.0, 63.391357, 60.5, 63.391357 ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 60.5, 145.0, 60.5, 145.0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.929412, 0.905882, 0.560784, 1.0 ],
+					"destination" : [ "obj-120", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 109.5, 60.0, 145.0, 60.0, 145.0, 215.0, 60.5, 215.0 ],
+					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
