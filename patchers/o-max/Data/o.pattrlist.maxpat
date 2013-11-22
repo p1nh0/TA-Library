@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 368.0, 318.0, 561.0, 510.0 ],
+		"rect" : [ 689.0, 301.0, 561.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -24,9 +24,9 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "This abstractions is a shell for o.polypattr. (see o.polypattr.maxpat)",
-		"digest" : "Bind to multiple pattr objects.",
-		"tags" : "o.lib pattr list",
+		"description" : "This abstractions is a wrapper for o_polypattr. See o_polypattr.maxhelp for complementary information.",
+		"digest" : "Bind to multiple pattr objects",
+		"tags" : "Open-Library Data",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -264,8 +264,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
-					"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -274,15 +274,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 108.0, 430.0, 203.0, 18.0 ],
-					"text" : "poly~ o.polypattr #1 @args #0-polypattr",
+					"patching_rect" : [ 108.0, 430.0, 202.0, 18.0 ],
+					"text" : "poly~ o_polypattr #1 @args #0-polypattr",
 					"varname" : "o.pattr~"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(anything) messages to 'poly~ o.polypattr'",
+					"comment" : "(anything) messages to 'poly~ o_polypattr'",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -541,16 +541,16 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.polypattr.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Pattr_extensions",
+				"name" : "o_polypattr.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.num2list.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/OpenInstruments/patchers/o.lib/Conversions",
-				"patcherrelativepath" : "../Conversions",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"patcherrelativepath" : "../Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
