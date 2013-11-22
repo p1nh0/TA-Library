@@ -133,7 +133,7 @@
         <xsl:apply-templates select="attributelist"/>
         <xsl:apply-templates select="entrylist"/>
         <xsl:apply-templates select="parameter"/>
-        <!-- box attr link -->
+        <!-- box attr link 
         <xsl:if test="/c74object/@name != 'jbox' and not(/c74object/@box=0)">
           <h4>
             <a>
@@ -153,8 +153,9 @@
               Information for box attributes common to all objects
             </a>
           </h4>
-        </xsl:if>
+        </xsl:if>-->
         <!-- end box attr link -->
+        
         <xsl:apply-templates select="menuitemlist"/>
         <xsl:apply-templates select="misc"/>
         <xsl:apply-templates select="examplelist"/>
