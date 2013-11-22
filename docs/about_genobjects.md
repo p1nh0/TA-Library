@@ -1,6 +1,6 @@
-How gen code is presented as a standard o.gen.object~: 
+How gen code is presented as a standard o.gen.object: 
 
-NOTE: for gen code I use standard abstraction wrappers (the gen~ object is inside a regular max abstraction)
+NOTE: for gen code I use standard abstraction wrappers (the gen~ object is inside a regular max abstraction), since you can't access the help patchers or reference files through gen~ objects. The name of the wrapper should always start with "o.gen." The procedure is similar to "o.poly" objects
 
 STEPS: 
 #1 - make gen code and save it as "o.yourobjname.gendsp" at "/code/"; 
