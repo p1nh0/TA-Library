@@ -31,7 +31,8 @@
     "digest": "Float to integer",
     "module": "max",
     "category": [
-      "Data"
+      "Data",
+      "Math"
     ]
   },
   "o.pattrlist": {
