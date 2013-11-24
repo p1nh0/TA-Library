@@ -1,4 +1,11 @@
-{
+{ 
+  "o.abs": {
+    "digest": "Calculate absolute values on lists",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  }, 
   "o.button2switch": {
     "digest": "Turn input button into a switch",
     "module": "max",

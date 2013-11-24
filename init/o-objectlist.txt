@@ -1,3 +1,4 @@
+max oblist openlibrary o.abs;
 max oblist openlibrary o.button2switch;
 max oblist openlibrary o.ceil; 
 max oblist openlibrary o.deg2rad;
