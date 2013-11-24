@@ -5,5 +5,6 @@ max oblist openlibrary o.emptymessagefilter;
 max oblist openlibrary o.f2i;
 max oblist openlibrary o.pattrlist;
 max oblist openlibrary o.rad2deg;
-max oblist openlibrary o.ramp; 
+max oblist openlibrary o.ramp;
+max oblist openlibrary o.safeprompt; 
 max oblist openlibrary o.symbolchange;

@@ -8,5 +8,6 @@
 	<refpage name='o.pattrlist.maxref.xml' />
 	<refpage name='o.rad2deg.maxref.xml' />
 	<refpage name='o.ramp.maxref.xml' />
+	<refpage name='o.safeprompt.maxref.xml' />
 	<refpage name='o.symbolchange.maxref.xml' />
 </root>

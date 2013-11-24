@@ -57,6 +57,13 @@
       "Timing"
     ]
   },
+  "o.safeprompt": {
+    "digest": "Safe prompt",
+    "module": "max",
+    "category": [
+      "Interaction"
+    ]
+  },
   "o.symbolchange": {
     "digest": "Filter out symbol repetitions",
     "module": "max",
