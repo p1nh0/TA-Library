@@ -2,6 +2,7 @@
 <root>
 	<refpage name='o.abs.maxref.xml' />
 	<refpage name='o.activiy.maxref.xml' />
+	<refpage name='o.automean.maxref.xml' />
 	<refpage name='o.button2switch.maxref.xml' />
 	<refpage name='o.ceil.maxref.xml' />
 	<refpage name='o.deg2rad.maxref.xml' />

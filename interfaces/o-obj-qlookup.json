@@ -14,7 +14,16 @@
       "Lists",
       "Math" 
     ]
-  }, 
+  },
+  "o.automean": {
+    "digest": "Calculate mean and mean difference from a stream of numbers",
+    "module": "max",
+    "category": [
+      "Control",
+      "Lists",
+      "Math" 
+    ]
+  },
   "o.button2switch": {
     "digest": "Turn input button into a switch",
     "module": "max",

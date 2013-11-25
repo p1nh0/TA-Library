@@ -1,5 +1,6 @@
 max oblist openlibrary o.abs;
 max oblist openlibrary o.activity;
+max oblist openlibrary o.automean;
 max oblist openlibrary o.button2switch;
 max oblist openlibrary o.ceil; 
 max oblist openlibrary o.deg2rad;
