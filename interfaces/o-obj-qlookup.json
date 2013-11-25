@@ -5,6 +5,15 @@
     "category": [
       "Math"
     ]
+  },
+  "o.activity": {
+    "digest": "Data flow activity",
+    "module": "max",
+    "category": [
+      "Control",
+      "Lists",
+      "Math" 
+    ]
   }, 
   "o.button2switch": {
     "digest": "Turn input button into a switch",
