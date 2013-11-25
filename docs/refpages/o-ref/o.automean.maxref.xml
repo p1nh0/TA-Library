@@ -208,7 +208,8 @@
 		<seealso name="expr" />
 		<seealso name="change" />
 		<seealso name="iter" />
-		<seealso name="o.varfilter" />		
+		<seealso name="o.varfilter" />
+		<seealso name="o.autorange" />			
 	</seealsolist>
 	<misc name="Output">
 		<entry name="float">

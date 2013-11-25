@@ -24,6 +24,15 @@
       "Math" 
     ]
   },
+  "o.autorange": {
+    "digest": "Get minimum and maximum values from an input number stream",
+    "module": "max",
+    "category": [
+      "Control",
+      "Lists",
+      "Math" 
+    ]
+  },
   "o.button2switch": {
     "digest": "Turn input button into a switch",
     "module": "max",
@@ -31,6 +40,13 @@
       "Control"
     ]
   }, 
+  "o.capture": {
+    "digest": "Store values to view or edit",
+    "module": "max",
+    "category": [
+      "Control"
+    ]
+  },
   "o.ceil": {
     "digest": "Ceil input float to int",
     "module": "max",
