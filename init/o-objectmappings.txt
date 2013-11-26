@@ -1,1 +1,4 @@
 max objectfile o.list.crossover o.crossover;
+max objectfile o.listcrossover o.crossover;
+max objectfile o.accum o.listaccum;
+max objectfile o.list.accum o.listaccum;

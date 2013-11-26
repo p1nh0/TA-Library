@@ -3,7 +3,8 @@
     "digest": "Calculate absolute values on lists",
     "module": "max",
     "category": [
-      "Math"
+      "Math",
+      "Lists"
     ]
   },
   "o.activity": {
@@ -83,7 +84,7 @@
     ]
   },
   "o.emptymessagefilter": {
-    "digest": "Filter Max's empty messages",
+    "digest": "Filter Max's empty messages",  
     "module": "max",
     "category": [
       "Data"
@@ -109,6 +110,14 @@
     "module": "olib",
     "category": [
       "Open-Library DEPRECATED"
+    ]
+  },
+  "o.listaccum": {
+    "digest": "DEPRECATED",
+    "module": "max",
+    "category": [
+      "Lists",
+      "Data"
     ]
   },
   "o.pattrlist": {
