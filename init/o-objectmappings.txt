@@ -3,4 +3,5 @@ max objectfile o.listcrossover o.crossover;
 max objectfile o.accum o.listaccum;
 max objectfile o.list.accum o.listaccum;
 max objectfile o.list.change o.listchange;
+max objectfile o.list.comparison o.listcomparison;
 max objectfile o.list.pattr o.pattrlist;

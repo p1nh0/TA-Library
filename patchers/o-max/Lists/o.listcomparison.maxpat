@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 602.0, 594.0 ],
+		"rect" : [ 4.0, 44.0, 602.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -24,8 +25,8 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "This object will help you to compare all items of a list with each other, without repititions.",
-		"digest" : "Compare list items. ",
-		"tags" : "Oi Olib Lists",
+		"digest" : "Compare all items in a list",
+		"tags" : "Open Library Data Lists Math",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -81,7 +82,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) input list for comparison ",
+					"comment" : "Compare items",
 					"id" : "obj-112",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -380,6 +381,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-2",
@@ -403,7 +405,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 38.5, 15.0, 132.0, 18.0 ],
-					"text" : "patcherargs @maxsize 512"
+					"text" : "patcherargs @maxsize 256"
 				}
 
 			}
@@ -755,7 +757,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

@@ -124,8 +124,17 @@
     "digest": "Filter out repeated lists",
     "module": "max",
     "category": [
+      "Control",
+      "Lists"
+    ]
+  },
+  "o.listcomparison": {
+    "digest": "Compare all items in a list",
+    "module": "max",
+    "category": [
+      "Data",
       "Lists",
-      "Control"
+      "Math"
     ]
   },
   "o.pattrlist": {

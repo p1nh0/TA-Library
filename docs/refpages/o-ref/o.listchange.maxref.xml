@@ -126,15 +126,9 @@
 		<seealso name="datachapter05" module="max" type="tutorial" />
 	</seealsolist>
 	<misc name="Output">
-		<entry name="int">
+		<entry name="list">
 			<description>
-				Out left outlet: The number received in the inlet is sent out only if it is different from the stored value.
-				<br />
-				<br />
-				Out middle outlet: If the stored value is 0 and the input is not 0, <m>1</m> is sent out; otherwise nothing is sent out.
-				<br />
-				<br />
-				Out right outlet: If the stored value is not 0 and the input is 0, <m>1</m> is sent out; otherwise nothing is sent out.
+				Out left outlet: The list received in the inlet is sent out only if it is different from the stored list.
 			</description>
 		</entry>
 	</misc>
