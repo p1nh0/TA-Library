@@ -54,6 +54,27 @@
       "Math"
     ]
   },
+  "o.checkumenuitem": {
+    "digest": "DEPRECATED",
+    "module": "olib",
+    "category": [
+      "Open-Library DEPRECATED"
+    ]
+  },
+  "o.clip": {
+    "digest": "DEPRECATED",
+    "module": "olib",
+    "category": [
+      "Open-Library DEPRECATED"
+    ]
+  },
+  "o.crossover": {
+    "digest": "Generate lists by mixing two parent lists",
+    "module": "max",
+    "category": [
+      "Lists"
+    ]
+  },
   "o.deg2rad": {
     "digest": "Convert degrees to radians",
     "module": "max",
@@ -74,6 +95,20 @@
     "category": [
       "Data",
       "Math"
+    ]
+  },
+  "o.holdmessage": {
+    "digest": "DEPRECATED",
+    "module": "olib",
+    "category": [
+      "Open-Library DEPRECATED"
+    ]
+  },
+  "o.list.ramp": {
+    "digest": "DEPRECATED",
+    "module": "olib",
+    "category": [
+      "Open-Library DEPRECATED"
     ]
   },
   "o.pattrlist": {

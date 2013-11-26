@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 772.0, 770.0 ],
+		"rect" : [ 4.0, 44.0, 772.0, 770.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -24,7 +25,7 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "Implementation of a genetic algorithm (GA) to create new offspring lists from two parent lists. This algorithm includes mutation, mix ratio from each parent, and the number of crossover points, allowing lists to be crossed over in chunks of list elements within a certain length.  ",
-		"digest" : "Mix two separate lists.",
+		"digest" : "Generate lists by mixing two parent lists",
 		"tags" : "OI Libs Lists",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -36,8 +37,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 185.0, 5.0, 223.0, 18.0 ],
-					"text" : "patcherargs @points 0 @mutation 0. @mix 0.5"
+					"patching_rect" : [ 185.0, 5.0, 219.0, 18.0 ],
+					"text" : "patcherargs @points 1 @mutation 0. @mix 0.5"
 				}
 
 			}
@@ -48,7 +49,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.0, 5.0, 20.0, 20.0 ]
 				}
 
@@ -90,8 +91,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 58.0, 265.0, 32.5, 18.0 ],
-					"text" : "!= 0"
+					"patching_rect" : [ 58.0, 263.5, 32.5, 18.0 ],
+					"text" : "> 1"
 				}
 
 			}
@@ -180,8 +181,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1207.0, 44.0, 233.0, 473.0 ],
@@ -548,8 +550,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 75.0, 119.0, 640.0, 480.0 ],
@@ -775,8 +778,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 454.0, 288.0, 233.0, 385.0 ],
@@ -1102,8 +1106,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 454.0, 288.0, 640.0, 480.0 ],
@@ -1432,8 +1437,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 47.0, 270.0, 563.0, 313.0 ],
@@ -1494,8 +1500,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 640.0, 55.0, 265.0, 624.0 ],
@@ -2167,8 +2174,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 853.0, 73.0, 298.0, 351.0 ],
@@ -2552,8 +2560,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 258.0, 361.0 ],
@@ -3153,8 +3162,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 47.0, 270.0, 563.0, 313.0 ],
@@ -3215,8 +3225,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 640.0, 55.0, 265.0, 624.0 ],
@@ -3888,8 +3899,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 853.0, 73.0, 298.0, 351.0 ],
@@ -4273,8 +4285,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 258.0, 361.0 ],
@@ -5141,6 +5154,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-147",
@@ -5577,7 +5591,7 @@
 					"destination" : [ "obj-147", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 398.5, 31.0, 165.5, 31.0 ],
+					"midpoints" : [ 394.5, 31.0, 165.5, 31.0 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -6097,7 +6111,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
