@@ -251,56 +251,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "int" ],
+									"outlettype" : [ "int", "" ],
 									"patching_rect" : [ 85.0, 265.0, 101.0, 18.0 ],
 									"text" : "o.checkumenuitem"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"frgb" : 0.0,
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 68.0, 130.0, 21.0 ],
-									"prototypename" : "oi.help_digest",
-									"text" : "Check umenu items"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"frgb" : 0.0,
-									"id" : "obj-5",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 89.0, 335.0, 21.0 ],
-									"prototypename" : "oi.help_digest",
-									"text" : "Check if a given item (symbol) exists in an umenu object",
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 90.0,
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"grad2" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"id" : "obj-6",
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 700.0, 80.0 ],
-									"rounded" : 0
 								}
 
 							}
@@ -514,28 +467,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.checkumenuitem.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Data",
-				"patcherrelativepath" : "../patchers/o-max/Data",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/_staging_area/deprecated/o.checkumenuitem",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

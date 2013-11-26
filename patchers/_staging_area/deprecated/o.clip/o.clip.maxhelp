@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 457.0, 132.0, 700.0, 589.0 ],
@@ -59,11 +60,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 457.0, 158.0, 700.0, 563.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -84,6 +86,22 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 550.0, 45.0, 92.0, 20.0 ],
+									"text" : "DEPRECATED",
+									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
 									"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
@@ -212,7 +230,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 202.0, 455.0, 99.0, 21.0 ],
-									"presentation_rect" : [ 136.0, 325.0, 0.0, 0.0 ],
 									"text" : "default = \" 0 1 \""
 								}
 
@@ -244,7 +261,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.5, 455.0, 46.0, 18.0 ],
-									"presentation_rect" : [ 233.0, 187.0, 0.0, 0.0 ],
 									"text" : "o.clip"
 								}
 
@@ -348,7 +364,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 395.0, 443.0, 296.0, 80.0 ],
+									"patching_rect" : [ 395.0, 443.0, 296.0, 79.0 ],
 									"text" : "@mode : (symbol) \n\"none\" — bypass \n\"min\" — clip minimum only (lowcut)\n\"max\" — clip maximum only (highcut)\n\"minmax\" — clip minimum and maximum (default)"
 								}
 
@@ -387,22 +403,6 @@
 							}
 , 							{
 								"box" : 								{
-									"angle" : 90.0,
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"grad2" : [ 0.4, 0.411765, 0.654902, 1.0 ],
-									"id" : "obj-7",
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 700.0, 80.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
 									"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
 									"fontface" : 3,
@@ -423,6 +423,7 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
+									"ignoreclick" : 1,
 									"jsarguments" : [ "o.clip" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
@@ -463,7 +464,6 @@
 									"orientation" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 187.5, 160.0, 75.0, 42.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 0.0, 42.0 ],
 									"text_width" : 82.0
 								}
 
@@ -605,6 +605,7 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "o.clip" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -627,11 +628,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 563.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -678,35 +680,35 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpargs.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.clip.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OI_framework/Libs/Olib/Lists",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/_staging_area/deprecated/o.clip",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
