@@ -113,11 +113,19 @@
     ]
   },
   "o.listaccum": {
-    "digest": "DEPRECATED",
+    "digest": "Accumulate items into a list",
     "module": "max",
     "category": [
       "Lists",
       "Data"
+    ]
+  },
+  "o.listchange": {
+    "digest": "Filter out repeated lists",
+    "module": "max",
+    "category": [
+      "Lists",
+      "Control"
     ]
   },
   "o.pattrlist": {

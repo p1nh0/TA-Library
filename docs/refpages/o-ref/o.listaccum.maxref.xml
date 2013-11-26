@@ -163,7 +163,9 @@
 		<seealso name="o.listcomparison" />
 		<seealso name="o.listcrossover" />
 		<seealso name="o.listmatch" />
-		<seealso name="o.pattrlist" />		
+		<seealso name="o.pattrlist" />
+		<seealso name="basicchapter03" module="max" type="tutorial" />
+		<seealso name="datachapter05" module="max" type="tutorial" />		
 	</seealsolist>
 	<misc name="Output">
 		<entry name="list">
