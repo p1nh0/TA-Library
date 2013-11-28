@@ -137,6 +137,13 @@
       "Math"
     ]
   },
+  "o.listremove": {
+    "digest": "Remove items from a stored list",
+    "module": "max",
+    "category": [
+      "Lists"
+    ]
+  },
   "o.pattrlist": {
     "digest": "Bind to multiple pattr objects",
     "module": "max",

@@ -12,6 +12,7 @@ max oblist openlibrary o.f2i;
 max oblist openlibrary o.listaccum;
 max oblist openlibrary o.listchange;
 max oblist openlibrary o.listcomparison;
+max oblist openlibrary o.listremove;
 max oblist openlibrary o.pattrlist;
 max oblist openlibrary o.rad2deg;
 max oblist openlibrary o.ramp;
