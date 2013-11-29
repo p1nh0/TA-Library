@@ -8,7 +8,7 @@
 		Remove items from a stored list
 	</digest>
 	<description>
-		Similar to <o>zl.filter</o> but it doesn't remove duplicates. Instead it only removes matched input occurences.
+		Similar to <o>zl.filter</o> but it doesn't remove duplicates. Instead it only removes matched input occurences.  Note that <o>o.listremove</o> is sensitve to the input format(int/float), thus "5" is different from "5.".
 	</description>
 	<!--METADATA-->
 	<metadatalist>
@@ -99,7 +99,7 @@
 				Clear storage memory
 			</digest>
 			<description>
-				Empty memory storage. When cleared <o>o.listremove</o> stays inactive until a list is provided for storage through the right inlet.
+				Empty memory storage. When cleared <o>o.listremove</o> stays inactive until a list is provided for storage through the right inlet or a <m>reset</m> message is received in the left inlet.
 			</description>
 		</method>
 	</methodlist>
@@ -110,7 +110,7 @@
 				Maximum List Size
 			</digest>
 			<description>
-				Maximum number of items to process. If the input list exceeds this size, excess items will be truncated. Doesn't affect lists received in the left outlet. 
+				Maximum number of items to process. If the input list exceeds this size, excess items will be truncated. 
 				(default = 256)
 			</description>
 			<attributelist>

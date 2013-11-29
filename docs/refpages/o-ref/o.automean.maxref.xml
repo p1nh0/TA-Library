@@ -161,8 +161,9 @@
 				Autoclear mean values
 			</digest>
 			<description>
-				If turned on (non-zero) the metro will begin running automatically at the time specified with the autostarttime attribute.
+				If turned off (zero) mean calculations are only cleared by stop and start (bang) messages.
 				If turned on (non-zero) <o>o.automean</o> will clear its mean calculations every N samples, according to the <m>samples</m> attribute.
+				(default = 0)
 			</description>
 			<attributelist>
 				<attribute name="basic" get="1" set="1" type="int" size="1" value="1" />
