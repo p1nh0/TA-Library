@@ -144,6 +144,14 @@
       "Lists"
     ]
   },
+  "o.meandiff": {
+    "digest": "Mean difference",
+    "module": "max",
+    "category": [
+      "Math",
+      "Lists"
+    ]
+  },
   "o.pattrlist": {
     "digest": "Bind to multiple pattr objects",
     "module": "max",
