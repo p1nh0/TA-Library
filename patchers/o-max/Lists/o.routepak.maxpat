@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 681.0, 509.0 ],
+		"rect" : [ 396.0, 85.0, 681.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -23,9 +24,9 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
+		"description" : "Combine items into an output list. The arguments and the \"initial\" attribute determine the list format and types of the list elements.",
+		"digest" : "Route and pak",
+		"tags" : "Open-Library Lists Control",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 707.0, 265.0, 640.0, 480.0 ],
@@ -417,22 +419,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 449.0, 200.0, 103.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 10.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p script_objs"
@@ -448,7 +449,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 449.0, 250.0, 80.0, 23.0 ],
+					"patching_rect" : [ 449.0, 250.0, 80.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -461,7 +462,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 380.0, 25.0, 25.0 ],
+					"patching_rect" : [ 127.0, 380.0, 20.0, 20.0 ],
 					"varname" : "outlet[1]"
 				}
 
@@ -520,8 +521,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 533.0, 130.0, 105.0, 18.0 ],
-					"text" : "zl len @zlmaxsize 32"
+					"patching_rect" : [ 533.0, 130.0, 110.0, 18.0 ],
+					"text" : "zl len @zlmaxsize 256"
 				}
 
 			}
@@ -558,6 +559,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -569,39 +571,26 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Output",
 					"id" : "obj-7",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 390.0, 25.0, 25.0 ],
+					"patching_rect" : [ 50.0, 390.0, 20.0, 20.0 ],
 					"varname" : "outlet"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Anything to be routed and paked",
 					"id" : "obj-3",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 60.0, 25.0, 25.0 ],
+					"patching_rect" : [ 50.0, 60.0, 20.0, 20.0 ],
 					"varname" : "inlet"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 26.650402,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 155.0, 37.0 ],
-					"text" : "o.routepak"
 				}
 
 			}
@@ -709,8 +698,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "o.num2list.maxpat",
-				"bootpath" : "/Applications/Max6/patches/OpenInstruments_v0.4.1/API/data/conversions",
-				"patcherrelativepath" : "../conversions",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

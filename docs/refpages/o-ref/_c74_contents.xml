@@ -26,6 +26,7 @@
 	<refpage name='o.ramp.maxref.xml' />
 	<refpage name='o.routejoin.maxref.xml' />
 	<refpage name='o.routepack.maxref.xml' />
+	<refpage name='o.routepak.maxref.xml' />
 	<refpage name='o.safeprompt.maxref.xml' />
 	<refpage name='o.symbolchange.maxref.xml' />
 </root>

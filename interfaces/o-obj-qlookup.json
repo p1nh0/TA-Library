@@ -198,6 +198,14 @@
       "Control"
     ]
   },
+    "o.routepak": {
+    "digest": "Route and pak",
+    "module": "max",
+    "category": [
+      "Lists",
+      "Control"
+    ]
+  },
   "o.safeprompt": {
     "digest": "Safe prompt",
     "module": "max",
