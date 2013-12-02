@@ -190,6 +190,14 @@
       "Control"
     ]
   },
+  "o.routepack": {
+    "digest": "Route and pack",
+    "module": "max",
+    "category": [
+      "Lists",
+      "Control"
+    ]
+  },
   "o.safeprompt": {
     "digest": "Safe prompt",
     "module": "max",
