@@ -152,6 +152,14 @@
       "Lists"
     ]
   },
+   "o.num2list": {
+    "digest": "Number to list",
+    "module": "max",
+    "category": [
+      "Lists",
+      "Control"
+    ]
+  },
   "o.pattrlist": {
     "digest": "Bind to multiple pattr objects",
     "module": "max",

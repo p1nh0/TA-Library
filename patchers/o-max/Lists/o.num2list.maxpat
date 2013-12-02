@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 594.0, 303.0, 612.0, 346.0 ],
@@ -23,11 +24,12 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
+		"description" : "Clone input item to a list with a predeterminate length.",
+		"digest" : "Number to list",
+		"tags" : "Open-Library Lists Control",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-3",
@@ -68,8 +70,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -291,13 +294,13 @@
 , 			{
 				"box" : 				{
 					"annotation" : "",
-					"comment" : "(int) list size ",
+					"comment" : "List size",
 					"hint" : "",
 					"id" : "obj-13",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 395.0, 30.0, 20.66474, 20.66474 ]
 				}
 
@@ -319,20 +322,20 @@
 , 			{
 				"box" : 				{
 					"annotation" : "",
-					"comment" : "(int/float/symbol) number to convert into list of size N",
+					"comment" : "Item to clone",
 					"hint" : "",
 					"id" : "obj-132",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 30.0, 20.66474, 20.66474 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) input repeated N times",
+					"comment" : "Output list",
 					"id" : "obj-133",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -387,7 +390,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
