@@ -182,6 +182,14 @@
       "Timing"
     ]
   },
+  "o.routejoin": {
+    "digest": "Route and join",
+    "module": "max",
+    "category": [
+      "Lists",
+      "Control"
+    ]
+  },
   "o.safeprompt": {
     "digest": "Safe prompt",
     "module": "max",

@@ -18,5 +18,6 @@ max oblist openlibrary o.num2list;
 max oblist openlibrary o.pattrlist;
 max oblist openlibrary o.rad2deg;
 max oblist openlibrary o.ramp;
+max oblist openlibrary o.routejoin;
 max oblist openlibrary o.safeprompt; 
 max oblist openlibrary o.symbolchange;
