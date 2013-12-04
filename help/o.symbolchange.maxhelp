@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 29.0, 69.0, 700.0, 454.0 ],
+		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 95.0, 700.0, 428.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -69,14 +69,42 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-23",
-									"maxclass" : "message",
-									"numinlets" : 2,
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-15",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 446.0, 276.0, 154.0, 56.0 ],
+									"text" : "if using this inlet to clear the object's memory, you need to keep a reserved word/symbol for that purpose"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-12",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 411.0, 276.0, 41.0, 20.0 ],
+									"text" : "Note:",
+									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "button",
+									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 253.0, 32.5, 16.0 ],
-									"text" : "\"0\""
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 210.0, 385.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -292,10 +320,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 1 ],
+									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-23", 0 ]
+									"source" : [ "obj-3", 1 ]
 								}
 
 							}
