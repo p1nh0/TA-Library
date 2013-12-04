@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -412,7 +412,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -433,6 +433,50 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-16",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 445.0, 205.0, 150.0, 43.0 ],
+									"text" : "If the number type (int/float) is not important it is better to use 'vexpr'"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-8",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 385.0, 325.0, 79.0, 19.0 ],
+									"presentation_rect" : [ 402.0, 324.0, 0.0, 0.0 ],
+									"text" : "0. 31. 0. 0.5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 445.0, 280.0, 81.0, 19.0 ],
+									"text" : "vexpr abs($f1)"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
@@ -509,10 +553,11 @@
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-13",
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 325.0, 332.0, 25.0 ],
+									"patching_rect" : [ 210.0, 307.5, 168.0, 54.0 ],
 									"text" : "notice that the number format (int/float) is maintained"
 								}
 
@@ -527,7 +572,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 99.0, 325.0, 111.0, 19.0 ],
-									"text" : "1 2 3. 4."
+									"text" : "0 31 0. 0.5"
 								}
 
 							}
@@ -601,6 +646,25 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 200.5, 271.5, 454.5, 271.5 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -731,8 +795,8 @@
 			}
 , 			{
 				"name" : "o.abs.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
-				"patcherrelativepath" : "../patchers/o-max/Lists",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Math",
+				"patcherrelativepath" : "../patchers/o-max/Math",
 				"type" : "JSON",
 				"implicit" : 1
 			}
