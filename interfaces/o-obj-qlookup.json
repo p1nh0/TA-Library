@@ -98,6 +98,14 @@
       "Math"
     ]
   },
+  "o.fold": {
+    "digest": "Fold input numbers between a given range",
+    "module": "max",
+    "category": [
+      "Math",
+      "Lists"
+    ]
+  },
   "o.holdmessage": {
     "digest": "DEPRECATED",
     "module": "olib",
