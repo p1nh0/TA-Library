@@ -227,5 +227,13 @@
     "category": [
       "Control"
     ]
-  } 
+  },
+  "o.wrap": {
+    "digest": "Wrap input numbers between a given range",
+    "module": "max",
+    "category": [
+      "Math",
+      "Lists"
+    ]
+  }
 }
