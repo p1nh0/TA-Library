@@ -30,5 +30,6 @@
 	<refpage name='o.routepak.maxref.xml' />
 	<refpage name='o.safeprompt.maxref.xml' />
 	<refpage name='o.symbolchange.maxref.xml' />
+	<refpage name='o.varfilter.maxref.xml' />
 	<refpage name='o.wrap.maxref.xml' />
 </root>

@@ -228,6 +228,13 @@
       "Control"
     ]
   },
+  "o.varfilter": {
+    "digest": "Filter variations",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  },
   "o.wrap": {
     "digest": "Wrap input numbers between a given range",
     "module": "max",
