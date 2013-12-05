@@ -5,6 +5,7 @@ max oblist openlibrary o.autorange;
 max oblist openlibrary o.button2switch;
 max oblist openlibrary o.capture; 
 max oblist openlibrary o.ceil; 
+max oblist openlibrary o.clipnotes; 
 max oblist openlibrary o.crossover;
 max oblist openlibrary o.deg2rad;
 max oblist openlibrary o.emptymessagefilter; 

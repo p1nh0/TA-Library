@@ -69,6 +69,14 @@
       "Open-Library DEPRECATED"
     ]
   },
+  "o.clipnotes": {
+    "digest": "Clip MIDI notes",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Control"
+    ]
+  },
   "o.crossover": {
     "digest": "Generate lists by mixing two parent lists",
     "module": "max",
