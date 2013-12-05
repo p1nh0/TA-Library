@@ -106,6 +106,14 @@
       "Math"
     ]
   },
+    "o.filterintervals": {
+    "digest": "Filter notes by interval",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Control"
+    ]
+  },
   "o.fold": {
     "digest": "Fold input numbers between a given range",
     "module": "max",

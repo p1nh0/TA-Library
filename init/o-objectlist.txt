@@ -10,6 +10,7 @@ max oblist openlibrary o.crossover;
 max oblist openlibrary o.deg2rad;
 max oblist openlibrary o.emptymessagefilter; 
 max oblist openlibrary o.f2i;
+max oblist openlibrary o.filterintervals;
 max oblist openlibrary o.fold;
 max oblist openlibrary o.listaccum;
 max oblist openlibrary o.listchange;
