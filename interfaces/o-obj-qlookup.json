@@ -198,6 +198,15 @@
       "Data"
     ]
   },
+   "o.prob-rhythm": {
+    "digest": "Generate rhythm throuhg unconditional probabilities",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Math",
+      "Lists"
+    ]
+  },
   "o.rad2deg": {
     "digest": "Convert radians to degrees",
     "module": "max",

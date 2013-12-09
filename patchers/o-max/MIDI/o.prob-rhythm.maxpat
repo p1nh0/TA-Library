@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 82.0, 44.0, 570.0, 751.0 ],
@@ -23,12 +24,12 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "Oi",
+		"description" : "o.prob-rhythm takes a rhythmic weight table (zeroth-order Markov chain) to generate rhythm, acting like a probabilistic sequencer.",
+		"digest" : "Generate rhythm throuhg unconditional probabilities",
+		"tags" : "Open-Library MIDI Math",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "(int 1..) step number",
+					"comment" : "Current step number",
 					"id" : "obj-4",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -123,13 +124,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "max velocity (0..127)",
+					"comment" : "Maximum velocity ",
 					"id" : "obj-26",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 483.0, 535.0, 25.0, 25.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 483.0, 535.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -387,19 +388,19 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "overall probability (0..100)",
+					"comment" : "Overall probability (0..100)",
 					"id" : "obj-15",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 140.0, 25.0, 25.0 ]
+					"patching_rect" : [ 520.0, 140.0, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(int 0..127) velocity output",
+					"comment" : "Velocity output",
 					"id" : "obj-12",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -410,13 +411,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "multislider in (list of rhythmic wiegths (float 0.~1.))",
+					"comment" : "Weight-table (0.~1.)",
 					"id" : "obj-19",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.0, 155.0, 25.0, 25.0 ]
+					"patching_rect" : [ 365.0, 155.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -454,6 +455,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-2",
@@ -476,19 +478,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.0, 15.0, 252.0, 18.0 ],
+					"patching_rect" : [ 85.0, 40.0, 252.0, 18.0 ],
 					"text" : "patcherargs @maxvel 127 @overall_prob 50 @seed 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(int) output step number#, (bang) iterate, (set (int)) go to step# without output",
+					"comment" : "Generate velocities",
 					"id" : "obj-3",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 40.0, 20.0, 20.0 ]
 				}
 
@@ -500,8 +502,18 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 277.5, 77.0, 44.5, 77.0 ],
+					"midpoints" : [ 327.5, 77.0, 44.5, 77.0 ],
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 94.5, 83.0, 359.5, 83.0 ],
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -731,7 +743,7 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 359.5, 185.0, 359.5, 185.0 ],
+					"midpoints" : [ 374.5, 185.0, 359.5, 185.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -952,7 +964,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
