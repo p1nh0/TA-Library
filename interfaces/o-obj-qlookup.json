@@ -122,6 +122,13 @@
       "Lists"
     ]
   },
+  "o.heldnotes": {
+    "digest": "Track held notes",
+    "module": "max",
+    "category": [
+      "MIDI"
+    ]
+  },
   "o.holdmessage": {
     "digest": "DEPRECATED",
     "module": "olib",
