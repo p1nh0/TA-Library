@@ -24,6 +24,7 @@
 	<refpage name='o.listcomparison.maxref.xml' />
 	<refpage name='o.listremove.maxref.xml' />
 	<refpage name='o.meandiff.maxref.xml' />
+	<refpage name='o.note2vpr.maxref.xml' />
 	<refpage name='o.num2list.maxref.xml' />
 	<refpage name='o.pattrlist.maxref.xml' />
 	<refpage name='o.prob-rhythm.maxref.xml' />
@@ -33,7 +34,10 @@
 	<refpage name='o.routepack.maxref.xml' />
 	<refpage name='o.routepak.maxref.xml' />
 	<refpage name='o.safeprompt.maxref.xml' />
+	<refpage name='o.sortnotes.maxref.xml' />
+	<refpage name='o.stripnotes.maxref.xml' />
 	<refpage name='o.symbolchange.maxref.xml' />
 	<refpage name='o.varfilter.maxref.xml' />
+	<refpage name='o.vpr2note.maxref.xml' />	
 	<refpage name='o.wrap.maxref.xml' />
 </root>

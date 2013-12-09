@@ -183,6 +183,14 @@
       "Lists"
     ]
   },
+   "o.note2vpr": {
+    "digest": "Convert note to virtual pitch and register",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Data"
+    ]
+  },
    "o.num2list": {
     "digest": "Number to list",
     "module": "max",
@@ -253,12 +261,29 @@
       "Interaction"
     ]
   },
+  "o.sortnotes": {
+    "digest": "Sort note lists",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Lists"
+    ]
+  },
   "o.splitnotes": {
     "digest": "Split note-on and note-off messages",
     "module": "max",
     "category": [
       "MIDI",
       "Control"
+    ]
+  },
+  "o.stripnotes": {
+    "digest": "Strip note lists",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Control",
+      "Lists"
     ]
   },
   "o.symbolchange": {
@@ -273,6 +298,14 @@
     "module": "max",
     "category": [
       "Math"
+    ]
+  },
+    "o.vpr2note": {
+    "digest": "Convert virtual pitch and register to note",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Data"
     ]
   },
   "o.wrap": {

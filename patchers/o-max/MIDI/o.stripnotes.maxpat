@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 311.0, 273.0, 640.0, 480.0 ],
+		"rect" : [ 311.0, 273.0, 270.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -23,17 +24,17 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
+		"description" : "Remove note-ons or note-offs from an input note list (pitch-velocity pairs). Similar to 'stripnote' but can handle lists.",
+		"digest" : "Strip notes by note-off or note-on",
+		"tags" : "Open-Library MIDI Control Lists",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Stripped notes",
 					"id" : "obj-25",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.5, 415.0, 25.0, 25.0 ]
+					"patching_rect" : [ 116.5, 390.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -46,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 291.5, 145.0, 66.0, 18.0 ],
+					"patching_rect" : [ 116.5, 120.0, 66.0, 18.0 ],
 					"text" : "t b l"
 				}
 
@@ -63,13 +64,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 291.5, 375.0, 66.0, 18.0 ],
+					"patching_rect" : [ 116.5, 350.0, 66.0, 18.0 ],
 					"text" : "o.listaccum"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
@@ -81,11 +83,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 29.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -218,7 +221,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 190.0, 145.0, 85.0, 18.0 ],
+					"patching_rect" : [ 15.0, 120.0, 85.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -245,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 392.5, 290.0, 32.5, 18.0 ],
+					"patching_rect" : [ 217.5, 265.0, 32.5, 18.0 ],
 					"text" : "== 0"
 				}
 
@@ -259,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 364.5, 265.0, 47.0, 18.0 ],
+					"patching_rect" : [ 189.5, 240.0, 47.0, 18.0 ],
 					"text" : "gate 2 1"
 				}
 
@@ -273,7 +276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 352.5, 235.0, 59.0, 18.0 ],
+					"patching_rect" : [ 177.5, 210.0, 59.0, 18.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -287,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.5, 330.0, 32.5, 18.0 ],
+					"patching_rect" : [ 150.5, 305.0, 32.5, 18.0 ],
 					"text" : "gate"
 				}
 
@@ -301,13 +304,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 339.0, 210.0, 32.5, 18.0 ],
+					"patching_rect" : [ 164.0, 185.0, 32.5, 18.0 ],
 					"text" : "t l l"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-7",
@@ -315,20 +319,20 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 190.0, 110.0, 120.5, 18.0 ],
+					"patching_rect" : [ 15.0, 85.0, 120.5, 18.0 ],
 					"text" : "route mode done"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) note(s) input list",
+					"comment" : "Notes to strip",
 					"id" : "obj-6",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 65.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 40.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -342,7 +346,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 190.0, 40.0, 138.0, 18.0 ],
+					"patching_rect" : [ 15.0, 15.0, 138.0, 18.0 ],
 					"text" : "patcherargs @mode note-off"
 				}
 
@@ -356,23 +360,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 339.0, 180.0, 43.0, 18.0 ],
+					"patching_rect" : [ 164.0, 155.0, 43.0, 18.0 ],
 					"text" : "zl iter 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 138.0, 18.0 ],
-					"text" : "strip note-offs or note-ons "
 				}
 
 			}
@@ -400,7 +389,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 335.0, 361.0, 301.0, 361.0 ],
+					"midpoints" : [ 160.0, 336.0, 126.0, 336.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -419,7 +408,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 374.0, 306.0, 335.0, 306.0 ],
+					"midpoints" : [ 199.0, 281.0, 160.0, 281.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -438,7 +427,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 402.0, 318.5, 335.0, 318.5 ],
+					"midpoints" : [ 227.0, 293.5, 160.0, 293.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -448,7 +437,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 199.5, 258.0, 374.0, 258.0 ],
+					"midpoints" : [ 24.5, 233.0, 199.0, 233.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -494,7 +483,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 318.5, 100.0, 199.5, 100.0 ],
+					"midpoints" : [ 143.5, 75.0, 24.5, 75.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -525,6 +514,14 @@
 					"source" : [ "obj-7", 2 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "o.listaccum.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"patcherrelativepath" : "../Lists",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}
