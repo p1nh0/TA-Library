@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 320.0, 262.0, 226.0, 246.0 ],
@@ -23,12 +24,12 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
+		"description" : "Simple object to retrieve midi note values either through the note-on outlet or through the note-off outlet.",
+		"digest" : "Split note-on and note-off messages",
+		"tags" : "Open-Library MIDI Control",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "(int/float) note-on",
+					"comment" : "Note-on",
 					"id" : "obj-3",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -95,7 +96,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(list) note {pitch velocity}",
+					"comment" : "Split note-on and note-off messages",
 					"id" : "obj-27",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -107,7 +108,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(int/float) note-off",
+					"comment" : "Note-off",
 					"id" : "obj-28",
 					"maxclass" : "outlet",
 					"numinlets" : 1,

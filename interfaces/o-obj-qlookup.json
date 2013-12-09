@@ -253,6 +253,14 @@
       "Interaction"
     ]
   },
+  "o.splitnotes": {
+    "digest": "Split note-on and note-off messages",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Control"
+    ]
+  },
   "o.symbolchange": {
     "digest": "Filter out symbol repetitions",
     "module": "max",
