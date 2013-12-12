@@ -93,7 +93,7 @@
 	<!--ATTRIBUTES-->
 	<!--EXAMPLE-->
 	<examplelist>
-		<example img="" caption="" />
+		<example img="" caption="beats-per-minute to milliseconds and milliseconds to beats-per-minute" />
 	</examplelist>
 	<!--SEEALSO-->
 	<seealsolist>
