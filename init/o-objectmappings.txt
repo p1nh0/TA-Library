@@ -11,3 +11,6 @@ max objectfile o.midi.probrhythm o.prob-rhythm;
 max objectfile o.probrhythm o.prob-rhythm;
 max objectfile o.note o.splitnotes;
 max objectfile o.stripnotetype o.stripnotes;
+max objectfile o.ms-bpm o.bpm-ms;
+max objectfile o.bpm2ms o.bpm-ms;
+max objectfile o.ms2bpm o.bpm-ms;

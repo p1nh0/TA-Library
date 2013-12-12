@@ -4,12 +4,14 @@
 	<refpage name='o.activiy.maxref.xml' />
 	<refpage name='o.automean.maxref.xml' />
 	<refpage name='o.autorange.maxref.xml' />
+	<refpage name='o.bpm-ms.maxref.xml' />
 	<refpage name='o.button2switch.maxref.xml' />
 	<refpage name='o.capture.maxref.xml' />
 	<refpage name='o.ceil.maxref.xml' />
 	<refpage name='o.checkumenuitem.maxref.xml' />
 	<refpage name='o.clip.maxref.xml' />
 	<refpage name='o.clipnotes.maxref.xml' />
+	<refpage name='o.clocker.maxref.xml' />
 	<refpage name='o.crossover.maxref.xml' />
 	<refpage name='o.deg2rad.maxref.xml' />
 	<refpage name='o.emptymessagefilter.maxref.xml'/>

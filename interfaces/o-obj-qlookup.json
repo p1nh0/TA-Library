@@ -34,6 +34,14 @@
       "Math" 
     ]
   },
+  "o.bpm-ms": {
+    "digest": "bpm to ms and vice versa",
+    "module": "max",
+    "category": [
+      "Timing",
+      "Math"
+    ]
+  }, 
   "o.button2switch": {
     "digest": "Turn input button into a switch",
     "module": "max",
@@ -75,6 +83,13 @@
     "category": [
       "MIDI",
       "Control"
+    ]
+  },
+  "o.clocker": {
+    "digest": "Similar to clocker",
+    "module": "max",
+    "category": [
+      "Timing"
     ]
   },
   "o.crossover": {
