@@ -144,6 +144,14 @@
       "Control"
     ]
   },
+    "o.filterintervals": {
+    "digest": "Find closest note",
+    "module": "max",
+    "category": [
+      "Notes",
+      "MIDI"
+    ]
+  },
   "o.fold": {
     "digest": "Fold input numbers between a given range",
     "module": "max",

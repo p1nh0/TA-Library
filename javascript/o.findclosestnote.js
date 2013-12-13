@@ -2,13 +2,18 @@
 // Compares an input note with a provided note list, if the input note doesn't match with any note in the list 
 // this object will output the closest note from the list (according to the findmode) 
 
-
-var scale = new Array("-1"); // scale (or note list) Array (-1 means it is empty) 
 var diffneg = new Array(); // negative diferences
 var diffpos = new Array(); // positive differences 
-var mode = 0; // find mode (default = 0 ->random) 
 var find = true; // used to stop further searches whenever there is a match 
 var diffs = 0; // -1 : negative difference only(input note is below all notes in the scale); +1 : positive diff only; 0 - negative&&positive diff
+
+var scale = new Array("-1"); // scale (or note list) Array (-1 means it is empty) 
+declareattribute("scale", null, null, 1);
+var findmode = 0; // find mode (default = 0 ->random)
+declareattribute("findmode", null, null, 1); 
+var defer = 0;
+declareattribute("defer", null, null, 1);
+
 
 inlets=2;
 setinletassist(0, "note: (int) input note to compare with scale from right inlet\n"); 
@@ -16,7 +21,7 @@ setinletassist(1, "scale: (int-list) note list\n");
 setoutletassist(0, "closest note: (int) the closest note to the provided scale\n"); 
 
 // findmode argument
-if(jsarguments.length ==2){ findmode(jsarguments[1]); }
+if(jsarguments.length ==2){ findmode = jsarguments[1]; }
 	
 // SET SCALE through right inlet
 function list() 
@@ -25,9 +30,11 @@ function list()
 }
 
 // FIND THE CLOSEST NOTE 
+msg_int.immediate = 1 - defer;
 function msg_int(note) 
 {
-	if(inlet==0) 
+	if (inlet==1) { scale = new Array("-1"); } // ckear scale through right inlet
+	else 
 	{ 	
 		if (scale!=-1) 
 		{	
@@ -75,7 +82,7 @@ function msg_int(note)
 		}
 			if (find==true){ // ROUND 3: if there are both positive and negative differences 
 							//meaning, if the input note is in between the notes of our scale use the findmode to get the closest note
-				switch(mode)
+				switch(findmode)
 				{
 					case -1: // favor note downwards   
 						if(Math.abs(diffneg[0]) < diffpos[0]) { outlet(0, note-diffneg[0]); }
@@ -93,25 +100,19 @@ function msg_int(note)
 						break; 
 				}
 			}
-		} else{ post("findclosesnote.js: missing a scale list in right inlet\n");}
+		} else{ post("o.findclosesnote.js: missing a scale list in right inlet\n");}
 	}
-}
-
-function findmode(m) 
-{
-	if (m>-2 && m<2)
-	{
-		mode = m; // -1: downwards, 1: upwards, 0- random (upwards, downards)
-  	} else {post("findclosestnote.js: wrong argument!\n"); }
 }
 
 // functions for Array.sort() method 
 ascending.local=1;
+ascending.immediate = 1 - defer;
 function ascending(a, b)
 {
 	return (a-b); 
 }
 descending.local=1; 
+descending.immediate = 1 - defer;
 function descending(a, b)
 {
 	return (b-a); 

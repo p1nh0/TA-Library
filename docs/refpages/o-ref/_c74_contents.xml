@@ -19,6 +19,7 @@
 	<refpage name='o.emptymessagefilter.maxref.xml'/>
 	<refpage name='o.f2i.maxref.xml' />
 	<refpage name='o.filterintervals.maxref.xml' />
+	<refpage name='o.findclosestnote.maxref.xml' />
 	<refpage name='o.fold.maxref.xml' />
 	<refpage name='o.heldnotes.maxref.xml' />
 	<refpage name='o.holdmessage.maxref.xml' />
