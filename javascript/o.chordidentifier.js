@@ -4,6 +4,8 @@ var s = new String(d.getkeys()); // string to splint into array
 var a = new Array; // array with chord names to get their respective chord notes 
 a = s.split(","); // string to array 
 var c = new Boolean; // false- no match; true - match found   
+var defer = 0; 
+declareattribute("defer"); 
 
 outlets = 2;  
 setoutletassist(1, "chord name");
@@ -11,6 +13,7 @@ setoutletassist(0, "chord notes");
 setinletassist(0, "input note {0~11} list"); 
 
 // MAIN 
+list.immediate = 1 - defer;
 function list() 
 {
 	input = arrayfromargs(arguments); //get arguments from list into an array 

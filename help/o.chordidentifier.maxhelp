@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 94.0, 700.0, 552.0 ],
+		"rect" : [ 29.0, 69.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -20,8 +21,8 @@
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -32,7 +33,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-4",
+					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
@@ -40,14 +41,138 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 700.0, 526.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 11.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 5.0, 5.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"showontab" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
+									"patching_rect" : [ 150.0, 71.0, 177.0, 18.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0
+									}
+,
+									"text" : "dict chords-dict chords-collection.json"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 68.5, 152.0, 21.0 ],
+									"prototypename" : "oi.help_digest",
+									"text" : "Add chord inversions to "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"autofit" : 1,
+									"id" : "obj-5",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 520.0, 0.0, 180.0, 60.0 ],
+									"pic" : "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/media/logo.png"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetails.js",
+									"id" : "obj-2",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "o.chordidentifier" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 0.0, 0.0, 520.0, 60.0 ]
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 32.0, 75.0, 48.0, 18.0 ],
+					"presentation_rect" : [ 32.0, 75.0, 0.0, 0.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"to do\"",
+					"varname" : "todo_tab"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
@@ -69,12 +194,13 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 512.0, 86.0, 150.0, 70.0 ],
+									"patching_rect" : [ 497.0, 76.0, 150.0, 69.0 ],
 									"text" : "double-click to see chord/intervals dict used by o.chordidentifier.js"
 								}
 
@@ -83,12 +209,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.0, 140.0, 332.0, 21.0 ],
-									"text" : "./OI_LIB/_metadata/musical data/chords-collection.json "
+									"patching_rect" : [ 93.0, 157.0, 349.0, 21.0 ],
+									"text" : "~/Open-Library/media/musical_data/chords-collection.json "
 								}
 
 							}
@@ -101,15 +228,20 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 335.0, 112.0, 177.0, 18.0 ],
+									"patching_rect" : [ 320.0, 102.0, 177.0, 18.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0
+									}
+,
 									"text" : "dict chords-dict chords-collection.json"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
-									"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -118,8 +250,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 105.0, 110.0, 101.0, 18.0 ],
+									"patching_rect" : [ 90.0, 102.0, 101.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"filename" : "o.chordidentifier",
 										"parameter_enable" : 0
 									}
 ,
@@ -131,11 +264,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 68.5, 152.0, 21.0 ],
+									"patching_rect" : [ 0.0, 58.5, 152.0, 21.0 ],
 									"prototypename" : "oi.help_digest",
 									"text" : "Using o.chordidentifier.js"
 								}
@@ -145,103 +279,68 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"id" : "obj-5",
-									"linecount" : 4,
+									"frgb" : 0.0,
+									"id" : "obj-4",
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 110.0, 511.0, 66.0 ],
+									"patching_rect" : [ 0.0, 100.0, 515.0, 108.0 ],
 									"prototypename" : "oi.help_digest",
-									"text" : "In order to use                              you'll need to have a                                                   instantiated (see dict.maxhelp). This dictionary, containing chords/intervals references, can be found in                                                                                          , and is addressed by o.chordidentifier.js by the dict name \"chords-dict\".  ",
+									"text" : "In order to use                              you'll need to have a                                                   \n\ninstantiated (see dict.maxhelp). This dictionary, containing chords/intervals references, \n\ncan be found in                                                                                               , and is \n\naddressed by o.chordidentifier.js by the dict name \"chords-dict\".  ",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"angle" : 90.0,
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"grad2" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
-									"id" : "obj-6",
-									"ignoreclick" : 1,
-									"maxclass" : "panel",
-									"mode" : 1,
+									"autofit" : 1,
+									"id" : "obj-5",
+									"maxclass" : "fpic",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.25, 700.0, 80.0 ],
-									"rounded" : 0
+									"patching_rect" : [ 520.0, 0.0, 180.0, 60.0 ],
+									"pic" : "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/media/logo.png"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"border" : 0,
-									"filename" : "helpname.js",
+									"filename" : "helpdetails.js",
 									"id" : "obj-2",
-									"jsarguments" : [ "o.chordidentifier.js" ],
+									"ignoreclick" : 1,
+									"jsarguments" : [ "o.chordidentifier" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 395.0, 58.5 ]
+									"patching_rect" : [ 0.0, 0.0, 520.0, 60.0 ]
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [ 							{
-								"name" : "helpname.js",
-								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "o.chordidentifier.js",
-								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
- ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 28.0, 114.0, 62.0, 18.0 ],
-					"presentation_rect" : [ 28.0, 114.0, 0.0, 0.0 ],
+					"patching_rect" : [ 18.0, 47.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 18.0, 47.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"description" : "",
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
 					"text" : "p advanced",
-					"varname" : "basic_tab[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 165.0, 142.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js helpstarter o.chordidentifier"
+					"varname" : "advanced_tab"
 				}
 
 			}
@@ -257,14 +356,15 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 50.0, 120.0, 700.0, 526.0 ],
+						"rect" : [ 29.0, 95.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 11.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
@@ -286,13 +386,13 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"id" : "obj-1",
+									"frgb" : 0.0,
+									"id" : "obj-4",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 306.0, 209.0, 75.0, 40.0 ],
-									"presentation_rect" : [ 305.0, 209.5, 0.0, 0.0 ],
+									"patching_rect" : [ 314.0, 199.0, 75.0, 40.0 ],
 									"text" : "chord name"
 								}
 
@@ -303,12 +403,13 @@
 									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-20",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 167.0, 369.5, 75.0, 40.0 ],
+									"patching_rect" : [ 93.0, 359.5, 75.0, 40.0 ],
 									"text" : "chord notes"
 								}
 
@@ -318,12 +419,13 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-19",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 381.0, 399.5, 75.0, 40.0 ],
+									"patching_rect" : [ 307.0, 359.5, 75.0, 40.0 ],
 									"text" : "chord name"
 								}
 
@@ -337,8 +439,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 280.0, 290.0, 39.0, 19.0 ],
-									"text" : "0 4 7"
+									"patching_rect" : [ 206.0, 280.0, 101.0, 19.0 ],
+									"text" : "0 4 7 11"
 								}
 
 							}
@@ -351,8 +453,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 331.0, 410.0, 50.0, 19.0 ],
-									"text" : "maj"
+									"patching_rect" : [ 257.0, 370.0, 50.0, 19.0 ],
+									"text" : "\"maj 7\""
 								}
 
 							}
@@ -361,12 +463,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-15",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 249.0, 380.0, 50.0, 19.0 ],
-									"text" : "0 4 7"
+									"patching_rect" : [ 175.0, 370.0, 50.0, 34.0 ],
+									"text" : "0 4 7 11"
 								}
 
 							}
@@ -379,7 +482,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 170.0, 51.0, 18.0 ],
+									"patching_rect" : [ 135.0, 160.0, 51.0, 18.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -393,7 +496,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 180.0, 245.0, 119.0, 18.0 ],
+									"patching_rect" : [ 188.0, 235.0, 119.0, 18.0 ],
 									"text" : "zl slice 1 @zlmaxsize 11"
 								}
 
@@ -407,7 +510,12 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 127.0, 220.0, 177.0, 18.0 ],
+									"patching_rect" : [ 135.0, 210.0, 177.0, 18.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0
+									}
+,
 									"text" : "dict chords-dict chords-collection.json"
 								}
 
@@ -421,7 +529,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 194.0, 38.0, 16.0 ],
+									"patching_rect" : [ 135.0, 184.0, 38.0, 16.0 ],
 									"text" : "get $1"
 								}
 
@@ -437,7 +545,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 86.5, 142.0, 100.0, 18.0 ],
+									"patching_rect" : [ 94.5, 132.0, 100.0, 18.0 ],
 									"prototypename" : "oi.chords",
 									"rounded" : 6
 								}
@@ -445,8 +553,8 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.792196, 0.977408, 0.678129, 1.0 ],
-									"color" : [ 0.466667, 0.752941, 0.894118, 1.0 ],
+									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
+									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -455,8 +563,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 280.0, 340.0, 101.0, 18.0 ],
+									"patching_rect" : [ 206.0, 330.0, 101.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"filename" : "o.chordidentifier",
 										"parameter_enable" : 0
 									}
 ,
@@ -466,63 +575,29 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 68.5, 130.0, 21.0 ],
-									"prototypename" : "oi.help_digest",
-									"text" : "Identify chords"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"frgb" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"autofit" : 1,
 									"id" : "obj-5",
-									"maxclass" : "comment",
+									"maxclass" : "fpic",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 89.5, 383.0, 21.0 ],
-									"prototypename" : "oi.help_digest",
-									"text" : "Compares an input pitch list with OI chords-collection dictionary. ",
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 90.0,
-									"bgcolor" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"grad1" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
-									"grad2" : [ 0.937255, 0.611765, 0.258824, 1.0 ],
-									"id" : "obj-6",
-									"ignoreclick" : 1,
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.5, 0.25, 700.0, 80.0 ],
-									"rounded" : 0
+									"patching_rect" : [ 520.0, 0.0, 180.0, 60.0 ],
+									"pic" : "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/media/logo.png"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"border" : 0,
-									"filename" : "helpname.js",
+									"filename" : "helpdetails.js",
 									"id" : "obj-2",
-									"jsarguments" : [ "o.chordidentifier.js" ],
+									"ignoreclick" : 1,
+									"jsarguments" : [ "o.chordidentifier" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 405.0, 58.5 ]
+									"patching_rect" : [ 0.0, 0.0, 520.0, 145.0 ]
 								}
 
 							}
@@ -599,33 +674,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "helpname.js",
-								"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "o.chordidentifier.js",
-								"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 85.0, 50.0, 18.0 ],
+					"patching_rect" : [ 10.0, 15.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 11.0,
+						"description" : "",
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 11.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -646,11 +708,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 700.0, 526.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -671,21 +734,20 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 30.0, 150.0, 50.0, 18.0 ],
+					"patching_rect" : [ 40.0, 110.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -697,23 +759,23 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"name" : "helpdetails.js",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "logo.png",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.chordidentifier.js",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/patches/OI_LIB/Utilities(objects)/MIDI",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

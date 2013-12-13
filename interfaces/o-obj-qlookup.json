@@ -70,6 +70,14 @@
       "Open-Library DEPRECATED"
     ]
   },
+  "o.chordidentifier": {
+    "digest": "Identify chords",
+    "module": "max",
+    "category": [
+      "Notes",
+      "MIDI"
+    ]
+  },
   "o.clip": {
     "digest": "DEPRECATED",
     "module": "olib",
