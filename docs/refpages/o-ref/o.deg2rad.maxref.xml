@@ -68,6 +68,27 @@
 			</description>
 		</method>
 	</methodlist>
+	<!--ATTRIBUTES-->
+	<attributelist>
+		<attribute name="defer" get="1" set="1" type="int" size="1">
+			<digest>
+				Defer
+			</digest>
+			<description>
+				&quot;0&quot;: execute on high-priority thread.
+				<br />
+				<br />
+				&quot;1&quot;: execute on low-priority thread.
+				(default = 0)
+			</description>
+			<attributelist>
+				<attribute name="basic" get="1" set="1" type="int" size="1" value="1" />
+				<attribute name="default" get="1" set="1" type="int" size="1" value="0" />
+				<attribute name="label" get="1" set="1" type="symbol" size="1" value="Defer" />
+				<attribute name="style" get="1" set="1" type="symbol" size="1" value="onoff" />
+			</attributelist>
+		</attribute>
+	</attributelist>
 	<!--EXAMPLE-->
 	<examplelist>
 		<example img="" />

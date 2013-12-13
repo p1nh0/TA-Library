@@ -1,7 +1,7 @@
 /***************************Open-Library, by p1nh0***************************/ 
 
 var defer = 0; // 0- high priority thread, 1- low priority thread
-declareattribute("defer"); 
+declareattribute("defer", null, null, 1); 
 
 setinletassist(0, "(int/float) radians"); 
 setoutletassist(0, "(float) degrees");
