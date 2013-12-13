@@ -214,6 +214,13 @@
       "Control"
     ]
   },
+  "o.onebanggate": {
+    "digest": "Onebang gate",
+    "module": "max",
+    "category": [
+      "Control"
+    ]
+  },
   "o.pattrlist": {
     "digest": "Bind to multiple pattr objects",
     "module": "max",
