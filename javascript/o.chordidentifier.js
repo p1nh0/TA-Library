@@ -5,7 +5,7 @@ var a = new Array; // array with chord names to get their respective chord notes
 a = s.split(","); // string to array 
 var c = new Boolean; // false- no match; true - match found   
 var defer = 0; 
-declareattribute("defer"); 
+declareattribute("defer", null, null, 1); 
 
 outlets = 2;  
 setoutletassist(1, "chord name");
