@@ -9,6 +9,7 @@ max oblist openlibrary o.ceil;
 max oblist openlibrary o.chordidentifier; 
 max oblist openlibrary o.clipnotes; 
 max oblist openlibrary o.clocker; 
+max oblist openlibrary o.copyfile;
 max oblist openlibrary o.crossover;
 max oblist openlibrary o.deg2rad;
 max oblist openlibrary o.emptymessagefilter; 

@@ -100,6 +100,13 @@
       "Timing"
     ]
   },
+  "o.copyfile": {
+    "digest": "Copy file",
+    "module": "max",
+    "category": [
+      "Files"
+    ]
+  },
   "o.crossover": {
     "digest": "Generate lists by mixing two parent lists",
     "module": "max",
