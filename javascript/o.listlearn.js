@@ -2,7 +2,7 @@
 inlets=2; 
 outlets=3;
 setinletassist(0, "gate(0/1): turn list processing on or off; reset(symbol): resets");
-setinletassist(1, "stream(anything): input stream to learn from");   
+setinletassist(1, "(symbol): input stream to learn from");   
 setoutletassist(0, "(symbol) list containing all different elements gathered from the list input stream"); 
 setoutletassist(1, "elements(int): number of elements in the list"); 
 setoutletassist(2, "sync(0/1) with listlearn state"); 
@@ -12,10 +12,12 @@ var data = new Array();
 var truth=1; // (0/1) is our data in the bucket different from all the elements in the 'data' Array 
 var prevlength = 0; // previous 'data' length 
 var state=0; //(0- close/stopped..., 1-open/processing...) 
+declareattribute("state", null, null, 1);
 var rounds=0; // number of rounds with 0 new elements (used to shut down input processing by automatically set the state variable) 
+var defer = 0; //defer attribute
+declareattribute("defer", null, null, 1);
 
-
-anything.immediate=1; 
+anything.immediate=1-defer; 
 function anything() { //distribute input streams (int, float, list) 
 	if (inlet==1) 
 	{  
@@ -39,7 +41,7 @@ function gate(i) //set js state (stopped or processing)
 		state = i;  
 }
 learn.local=1;
-learn.immediate=1; 
+learn.immediate=1-defer; 
 function learn() // learn from data in the 'bucket' Array   
 {
 	if(state==1) 
@@ -95,7 +97,7 @@ function reset() // resets internal variables (this function also runs when obje
 		bucket = new Array(); 
 		prevlength = 0; 
 		rounds = 0; 
-		post("data array erased\n"); }
+		post("o.listlearn: data array erased\n"); }
 }
 autoreset.local=1; 
 function autoreset() {
@@ -103,7 +105,7 @@ function autoreset() {
 	bucket = new Array(); 
 	prevlength = 0; 	
 	rounds = 0; 
-	post("data array erased\n");
+	post("o.listlearn: data array erased\n");
 }
 differentStrings.local=1;
 function differentStrings(a, b) // compare two strings and return true if they're different 

@@ -206,6 +206,14 @@
       "Math"
     ]
   },
+  "o.listlearn": {
+    "digest": "Learn unique elements from data streams",
+    "module": "max",
+    "category": [
+      "Lists",
+      "Data"
+    ]
+  },
   "o.listremove": {
     "digest": "Remove items from a stored list",
     "module": "max",
