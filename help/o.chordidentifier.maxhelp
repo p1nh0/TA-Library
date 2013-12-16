@@ -133,7 +133,6 @@
 					}
 ,
 					"patching_rect" : [ 32.0, 75.0, 48.0, 18.0 ],
-					"presentation_rect" : [ 32.0, 75.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -215,7 +214,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 93.0, 157.0, 349.0, 21.0 ],
-									"text" : "~/Open-Library/media/musical_data/chords-collection.json "
+									"text" : "~/Open-Library/misc/musical_data/chords-collection.json "
 								}
 
 							}
@@ -242,6 +241,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"embedstate" : [ [ "defer", 0 ] ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -325,7 +325,6 @@
 					}
 ,
 					"patching_rect" : [ 18.0, 47.0, 62.0, 18.0 ],
-					"presentation_rect" : [ 18.0, 47.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -555,6 +554,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+									"embedstate" : [ [ "defer", 0 ] ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,

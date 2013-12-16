@@ -1,6 +1,10 @@
 //TA160512
 // convert a note number or a list of notes(midi 0~127) into a pitch-class
 
+var defer = 0; 
+declareattribute("defer", null, null, 1);
+
+list.immediate = 1 - defer;
 function list() 
 {
 	l = arrayfromargs(messagename, arguments); 
@@ -14,6 +18,7 @@ function list()
 	outlet(0, pitchclass);
 }
 
+list.immediate = 1 - defer;
 function msg_int(num)
 {
 	pitchclass = new Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); 
