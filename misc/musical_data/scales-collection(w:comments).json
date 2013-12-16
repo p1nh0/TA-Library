@@ -1,0 +1,174 @@
+{   
+    //thanks to "Big Masta" @renoise.com forum 
+    //http://forum.renoise.com/index.php?/topic/17590-looking-for-musical-scales-list/
+	//access date: January, 8, 2013
+    
+    
+    "Major"                             : [ 0, 2, 4, 5, 7, 9, 11 ],//C,D,E,F,G,A,B
+	"Harmonic Minor"                    : [ 0, 2, 3, 5, 7, 8, 11 ],//C,D,Eb,F,G,Ab,B
+	"Melodic Minor (Ascending)"         : [ 0, 2, 3, 5, 7, 9, 11 ],//C,D,Eb,F,G,A,B 
+	"Melodic Minor (Descending)"        : [ 0, 2, 3, 5, 7, 8, 10 ],//C,D,Eb,F,G,Ab,Bb
+	"Chromatic"                         : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],//C,Db,D,Eb,E,F,Gb,G,G#,A,Bb,B
+	"Whole Tone"                        : [ 0, 2, 4, 6, 8, 10 ],//C,D,E,F#,G#,Bb
+	"Pentatonic Major"                  : [ 0, 2, 4, 7, 9 ],//C,D,E,G,A 
+	"Pentatonic Minor"                  : [ 0, 3, 5, 7, 10 ],//C,Eb,F,G,Bb 
+	"Pentatonic Blues"                  : [ 0, 3, 5, 6, 7, 10 ],//C,Eb,F,Gb,G,Bb 
+	"Pentatonic Neutral"                : [ 0, 2, 5, 7, 10 ],//C,D,F,G,Bb 
+	"Octatonic (H-W)"                   : [ 0, 1, 3, 4, 6, 7, 9, 10 ],//C,Db,Eb,E,Gb,G,A,Bb 
+	"Octatonic (W-H)"                   : [ 0, 2, 3, 5, 6, 8, 9, 11 ],//C,D,Eb,F,Gb,Ab,A,B 
+	"Ionian"                            : [ 0, 2, 4, 5, 7, 9, 11 ],//C,D,E,F,G,A,B 
+	"Dorian"                            : [ 0, 2, 3, 5, 7, 9, 10 ],//C,D,Eb,F,G,A,Bb 
+	"Phrygian"                          : [ 0, 1, 3, 5, 7, 8, 10 ],//C,Db,Eb,F,G,Ab,Bb 
+	"Lydian"                            : [ 0, 2, 4, 6, 7, 9, 11 ],//C,D,E,F#,G,A,B 
+	"Mixolydian"                        : [ 0, 2, 4, 5, 7, 9, 10 ],//C,D,E,F,G,A,Bb 
+	"Aeolian"                           : [ 0, 2, 3, 5, 7, 8, 10 ],//C,D,Eb,F,G,Ab,Bb 
+	"Locrian"                           : [ 0, 1, 3, 5, 6, 8, 10 ],//C,Db,Eb,F,Gb,Ab,Bb 
+	"Algerian"                          : [ 0, 2, 3, 5, 6, 7, 8, 11 ],//C,D,Eb,F,F#,G,Ab,B 
+	"Arabian (a)"                       : [ 0, 2, 3, 5, 6, 8, 9, 11 ],//C,D,Eb,F,F#,G#,A,B 
+	"Arabian (b)"                       : [ 0, 2, 4, 5, 6, 8, 10 ],//C,D,E,F,F#,G#,Bb 
+	"Augmented"                         : [ 0, 3, 4, 6, 6, 11 ],//C,D#,E,F#,G#,B 
+	"Auxiliary Diminished"              : [ 0, 2, 3, 5, 6, 8, 9, 11 ],//C,D,Eb,F,F#,G#,A,B
+	"Auxiliary Augmented"               : [ 0, 2, 4, 6, 8, 10 ],//C,D,E,F#,G#,A# 
+	"Auxiliary Diminished Blues"        : [ 0, 1, 3, 4, 6, 7, 9, 10 ],//C,Db,Eb,E,Gb,G,A,Bb 
+	"Balinese"                          : [ 0, 1, 3, 7, 8 ],//C,Db,Eb,G,Ab
+	"Blues"                             : [ 0, 3, 5, 6, 7, 10 ],//C,Eb,F,F#,G,Bb
+	"Byzantine"                         : [ 0, 1, 4, 5, 7, 8, 11 ],//C,Db,E,F,G,Ab,B
+	"Chinese"                           : [ 0, 4, 6, 7, 11 ],//C,E,F#,G,B 
+	"Chinese Mongolian"                 : [ 0, 2, 4, 7, 9 ],//C,D,E,G,A
+	"Diatonic"                          : [ 0, 2, 4, 7, 9 ],//C,D,E,G,A
+	"Diminished"                        : [ 0, 2, 3, 5, 6, 8, 9, 11],//C,D,Eb,F,Gb,Ab,A,B
+	"Diminished, Half"                  : [ 0, 1, 3, 4, 6, 7, 9, 10 ],//C,Db,Eb,E,Gb,G,A,Bb
+	"Diminished, Whole"                 : [ 0, 2, 3, 5, 6, 8, 9, 11 ],//C,D,Eb,F,Gb,Ab,A,B 
+	"Diminished Whole Tone"             : [ 0, 1, 3, 4, 6, 8, 10 ],//C,Db,Eb,E,Gb,Ab,Bb
+	"Dominant 7th"                      : [ 0, 2, 4, 5, 7, 9, 10 ],//C,D,E,F,G,A,Bb 
+	"Double Harmonic"                   : [ 0, 1, 4, 5, 7, 8, 11 ],//C,Db,E,F,G,Ab,B
+	"Egyptian"                          : [ 0, 2, 5, 7, 10 ],//C,D,F,G,Bb
+	"Eight Tone Spanish"                : [ 0, 1, 3, 4, 5, 6, 8, 10 ],//C,Db,D#,E,F,Gb,Ab,Bb
+	"Enigmatic"                         : [ 0, 1, 4, 6, 8, 10, 11 ],//C,Db,E,F#,G#,A#,B
+	"Ethiopian (A raray)"               : [ 0, 2, 4, 5, 7, 9, 11 ],//C,D,E,F,G,A,B
+	"Ethiopian (Geez & Ezel)"           : [ 0, 2, 3, 5, 7, 8, 10 ],//C,D,Eb,F,G,Ab,Bb
+	"Half Diminished (Locrian)"         : [ 0, 1, 3, 5, 6, 8, 10 ],//C,Db,Eb,F,Gb,Ab,Bb
+	"Half Diminished #2 (Locrian #2)"   : [ 0, 2, 3, 5, 6, 8, 10 ],//C,D,Eb,F,Gb,Ab,Bb
+	"Hawaiian"                          : [ 0, 2, 3, 5, 7, 9, 11 ],//C,D,Eb,F,G,A,B
+	"Hindu"                             : [ 0, 2, 4, 5, 7, 8, 10 ],//C,D,E,F,G,Ab,Bb
+	"Hindustan"                         : [ 0, 2, 4, 5, 7, 8, 10 ],//C,D,E,F,G,Ab,Bb
+	"Hirajoshi"                         : [ 0, 2, 3, 7, 8 ],//C,D,Eb,G,Ab
+	"Hungarian Major"                   : [ 0, 3, 4, 6, 7, 9, 10 ],//C,D#,E,F#,G,A,Bb
+	"Hungarian Gypsy"                   : [ 0, 2, 3, 6, 7, 8, 11 ],//C,D,Eb,F#,G,Ab,B
+	"Hungarian Gypsy Persian"           : [ 0, 1, 4, 5, 7, 8, 11 ],//C,Db,E,F,G,Ab,B
+	"Hungarian Minor"                   : [ 0, 2, 3, 6, 7, 8, 11 ],//C,D,Eb,F#,G,Ab,B 
+	"Japanese (A)"                      : [ 0, 1, 5, 7, 8 ],//C,Db,F,G,Ab
+	"Japanese (B)"                      : [ 0, 2, 5, 7, 8 ],//C,D,F,G,Ab
+	"Japanese (Ichikosucho)"            : [ 0, 2, 4, 5, 6, 7, 9, 11 ],//C,D,E,F,F#,G,A,B ]
+	"Japanese (Taishikicho)"            : [ 0, 2, 4, 5, 6, 7, 9, 10, 11 ],//C,D,E,F,F#,G,A,A#,B 
+	"Javaneese"                         : [ 0, 1, 3, 5, 7, 9, 10 ],//C,Db,Eb,F,G,A,Bb 
+	"Jewish (Adonai Malakh)"            : [ 0, 1, 2, 3, 5, 7, 9, 10 ],//C,Db,D,Eb,F,G,A,Bb
+	"Jewish (Ahaba Rabba)"              : [ 0, 1, 4, 5, 7, 8, 10 ],//C,Db,E,F,G,Ab,Bb 
+	"Jewish (Magen Abot)"               : [ 0, 1, 3, 4, 6, 8, 10, 11 ],//C,Db,D#,E,F#,G#,A#,B
+	"Kumoi"                             : [ 0, 2, 3, 7, 9 ],//C,D,Eb,G,A
+	"Leading Whole Tone"                : [ 0, 2, 4, 6, 8, 10, 11 ],//C,D,E,F#,G#,A#,B
+	"Lydian Augmented"                  : [ 0, 2, 4, 6, 8, 9, 11 ],//C,D,E,F#,G#,A,B
+	"Lydian Minor"                      : [ 0, 2, 4, 6, 7, 8, 10 ],//C,D,E,F#,G,Ab,Bb
+	"Lydian Diminished"                 : [ 0, 2, 3, 6, 7, 9, 11 ],//C,D,Eb,F#,G,A,B
+	"Major Locrian"                     : [ 0, 2, 4, 5, 6, 8, 10 ],//C,D,E,F,Gb,Ab,Bb 
+	"Mela Bhavapriya (44)"              : [ 0, 1, 2, 5, 7, 8, 9 ],//C,Db,D,F,G,G#,A
+	"Mela Chakravakam (16)"             : [ 0, 1, 4, 5, 7, 9, 10 ],//C,Db,E,F,G,A,Bb
+	"Mela Chalanata (36)"               : [ 0, 3, 4, 5, 7, 10, 11 ],//C,D#,E,F,G,A#,B
+	"Mela Charukesi (26)"               : [ 0, 2, 4, 5, 7, 8, 10 ],//C,D,E,F,G,Ab,Bb
+	"Mela Chitrambari (66)"             : [ 0, 2, 4, 6, 7, 10, 11 ],//C,D,E,F#,G,A#,B
+	"Mela Dharmavati (59)"              : [ 0, 2, 3, 6, 7, 9, 11 ],//C,D,Eb,F#,G,A,B
+	"Mela Dhatuvardhani (69)"           : [ 0, 3, 4, 6, 7, 8, 11 ],//C,D#,E,F#,G,Ab,B
+	"Mela Dhavalambari (49)"            : [ 0, 1, 4, 6, 7, 8, 9 ],//C,Db,E,F#,G,G#,A
+	"Mela Dhenuka (9)"                  : [ 0, 1, 3, 5, 7, 8, 11 ],//C,Db,Eb,F,G,Ab,B 
+	"Mela Dhirasankarabharana (29)"     : [ 0, 2, 4, 5, 7, 9, 11 ],//C,D,E,F,G,A,B
+	"Mela Divyamani (48)"               : [ 0, 1, 3, 6, 7, 10, 11 ],//C,Db,Eb,F#,G,A#,B
+	"Mela Gamanasrama (53)"             : [ 0, 1, 4, 6, 7, 9, 11 ],//C,Db,E,F#,G,A,B
+	"Mela Ganamurti (3)"                : [ 0, 1, 2, 5, 7, 8, 11 ],//C,Db,D,F,G,Ab,B
+	"Mela Gangeyabhusani (33)"          : [ 0, 3, 4, 5, 7, 8, 11 ],//C,D#,E,F,G,Ab,B
+	"Mela Gaurimanohari (23)"           : [ 0, 2, 3, 5, 7, 9, 11 ],//C,D,Eb,F,G,A,B
+	"Mela Gavambodhi (43)"              : [ 0, 1, 3, 6, 7, 8, 9 ],//C,Db,Eb,F#,G,G#,A
+	"Mela Gayakapriya (13)"             : [ 0, 1, 4, 5, 7, 8, 9 ],//C,Db,E,F,G,G#,A
+	"Mela Hanumattodi (8)"              : [ 0, 1, 3, 5, 7, 8, 10 ],//C,Db,Eb,F,G,Ab,Bb
+	"Mela Harikambhoji (28)"            : [ 0, 2, 4, 5, 7, 9, 10 ],//C,D,E,F,G,A,Bb
+	"Mela Hatakambari (18)"             : [ 0, 1, 4, 5, 7, 10, 11 ],//C,Db,E,F,G,A#,B
+	"Mela Hemavati (58)"                : [ 0, 2, 3, 6, 7, 9, 10 ],//C,D,Eb,F#,G,A,Bb 
+	"Mela Jalarnavam (38)"              : [ 0, 1, 2, 6, 7, 8, 10 ],//C,Db,D,F#,G,Ab,Bb 
+	"Mela Jhalavarali (39)"             : [ 0, 1, 2, 6, 7, 9, 10 ],//C,Db,D,F#,G,A,Bb
+	"Mela Jhankaradhvani (19)"          : [ 0, 2, 3, 5, 7, 9, 10 ],/*C,D,Eb,F,G,A#,G,A <---------> THIS SCALE WAS EDITED FROM ORIGINAL TO MATCH W/ DICT FORMAT*/
+    "Mela Jyotisvarupini (68)"          : [ 0, 3, 4, 6, 7, 8, 10 ],//C,D#,E,F#,G,Ab,Bb 
+	"Mela Kamavardhani (51)"            : [ 0, 1, 4, 6, 7, 8, 11 ],//C,Db,E,F#,G,Ab,B
+	"Mela Kanakangi (1)"                : [ 0, 1, 2, 5, 7, 8, 9 ],//C,Db,D,F,G,G#,A
+	"Mela Kantamani (61)"               : [ 0, 2, 4, 6, 7, 8, 9 ],//C,D,E,F#,G,G#,A
+	"Mela Kharaharapriya (22)"          : [ 0, 2, 3, 5, 7, 9, 10 ],//C,D,Eb,F,G,A,Bb
+	"Mela Kiravani (21)"                : [ 0, 2, 3, 5, 7, 8, 11 ],//C,D,Eb,F,G,Ab,B
+	"Mela Kokilapriya (11)"             : [ 0, 1, 3, 5, 7, 9, 11 ],//C,Db,Eb,F,G,A,B
+	"Mela Kosalam (71)"                 : [ 0, 3, 4, 6, 7, 9, 11 ],//C,D#,E,F#,G,A,B
+	"Mela Latangi (63)"                 : [ 0, 2, 4, 6, 7, 8, 11 ],//C,D,E,F#,G,Ab,B
+	"Mela Manavati (5)"                 : [ 0, 1, 2, 5, 7, 9, 11 ],//C,Db,D,F,G,A,B
+	"Mela Mararanjani (25)"             : [ 0, 2, 4, 5, 7, 8, 9 ],//C,D,E,F,G,G#,A
+	"Mela Mayamalavagaula (15)"         : [ 0, 1, 4, 5, 7, 8, 9 ],//C,Db,E,F,G,G#,A
+	"Mela Mechakalyani (65)"            : [ 0, 2, 4, 6, 7, 9, 11 ],//C,D,E,F#,G,A,B
+	"Mela Naganandini (30)"             : [ 0, 2, 4, 5, 7, 8, 11 ],//C,D,E,F,G,A#,B
+	"Mela Namanarayani (50)"            : [ 0, 1, 4, 6, 7, 8, 10 ],//C,Db,E,F#,G,Ab,Bb
+	"Mela Nasikabhusani (70)"           : [ 0, 3, 4, 6, 7, 9, 10 ],//C,D#,E,F#,G,A,Bb
+	"Mela Natabhairavi (20)"            : [ 0, 2, 3, 5, 7, 8, 10 ],//C,D,Eb,F,G,Ab,Bb
+	"Mela Natakapriya (10)"             : [ 0, 1, 3, 5, 7, 9, 10 ],//C,Db,Eb,F,G,A,Bb
+	"Mela Navanitam (40)"               : [ 0, 1, 2, 6, 7, 9, 10 ],//C,Db,D,F#,G,A,Bb 
+	"Mela Nitimati (60)"                : [ 0, 2, 3, 6, 7, 10, 11 ],//C,D,Eb,F#,G,A#,B 
+	"Mela Pavani (41)"                  : [ 0, 1, 2, 6, 7, 9, 11 ],//C,Db,D,F#,G,A,B 
+	"Mela Ragavardhani (32)"            : [ 0, 3, 4, 5, 7, 8, 10 ],//C,D#,E,F,G,Ab,Bb
+	"Mela Raghupriya (42)"              : [ 0, 1, 2, 6, 7, 10, 11 ],//C,Db,D,F#,G,A#,B
+	"Mela Ramapriya (52)"               : [ 0, 1, 4, 6, 7, 9, 10 ],//C,Db,E,F#,G,A,Bb
+	"Mela Rasikapriya (72)"             : [ 0, 3, 4, 6, 7, 10, 11 ],//C,D#,E,F#,G,A#,B
+	"Mela Ratnangi (2)"                 : [ 0, 1, 2, 5, 7, 8, 10 ],//C,Db,D,F,G,Ab,Bb 
+	"Mela Risabhapriya (62)"            : [ 0, 2, 4, 6, 7, 8, 10 ],//C,D,E,F#,G,Ab,Bb 
+	"Mela Rupavati (12)"                : [ 0, 1, 3, 5, 7, 10, 11 ],//C,Db,Eb,F,G,A#,B 
+	"Mela Sadvidhamargini (46)"         : [ 0, 1, 3, 6, 7, 9, 10 ],//C,Db,Eb,F#,G,A,Bb 
+	"Mela Salagam (37)"                 : [ 0, 1, 2, 6, 7, 8, 9 ],//C,Db,D,F#,G,G#,A 
+	"Mela Sanmukhapriya (56)"           : [ 0, 2, 3, 6, 7, 8, 10 ],//C,D,Eb,F#,G,Ab,Bb 
+	"Mela Sarasangi (27)"               : [ 0, 2, 4, 5, 7, 8, 11 ],//C,D,E,F,G,Ab,B 
+	"Mela Senavati (7)"                 : [ 0, 1, 3, 5, 7, 8, 9 ],//C,Db,Eb,F,G,G#,A 
+	"Mela Simhendramadhyama (57)"       : [ 0, 2, 3, 6, 7, 8, 11 ],//C,D,Eb,F#,G,Ab,B 
+	"Mela Subhapantuvarali (45)"        : [ 0, 1, 3, 6, 7, 8, 11 ],//C,Db,Eb,F#,G,Ab,B 
+	"Mela Sucharitra (67)"              : [ 0, 3, 4, 6, 7, 8, 9 ],//C,D#,E,F#,G,G#,A 
+	"Mela Sulini (35)"                  : [ 0, 3, 4, 5, 7, 9, 11 ],//C,D#,E,F,G,A,B 
+	"Mela Suryakantam (17)"             : [ 0, 1, 4, 5, 7, 9, 11 ],//C,Db,E,F,G,A,B 
+	"Mela Suvarnangi (47)"              : [ 0, 1, 2, 6, 7, 9, 11 ],//C,Db,D,F#,G,A,B 
+	"Mela Syamalangi (55)"              : [ 0, 2, 3, 6, 7, 8, 9 ],//C,D,Eb,F#,G,G#,A 
+	"Mela Tanarupi (6)"                 : [ 0, 1, 2, 5, 7, 10, 11 ],//C,Db,D,F,G,A#,B 
+	"Mela Vaschaspati (64)"             : [ 0, 2, 4, 6, 7, 9, 10 ],//C,D,E,F#,G,A,Bb 
+	"Mela Vagadhisvari (34)"            : [ 0, 3, 4, 5, 7, 9, 10 ],//C,D#,E,F,G,A,Bb 
+	"Mela Vakulabharanam (14)"          : [ 0, 3, 4, 5, 7, 8, 10 ],//C,D#,E,F,G,Ab,Bb 
+	"Mela Vanaspati (4)"                : [ 0, 1, 2, 5, 7, 9, 10 ],//C,Db,D,F,G,A,Bb 
+	"Mela Varunapriya (24)"             : [ 0, 2, 3, 5, 7, 10, 11 ],//C,D,Eb,F,G,A#,B 
+	"Mela Visvambari (54)"              : [ 0, 3, 4, 6, 7, 10, 11 ],//C,D#,E,F#,G,A#,B 
+	"Mela Yagapriya (31)"               : [ 0, 3, 4, 5, 7, 8, 9 ],//C,D#,E,F,G,G#,A 
+	"Mohammedan"                        : [ 0, 2, 3, 5, 7, 8, 11 ],//C,D,Eb,F,G,Ab,B 
+	"Neopolitan"                        : [ 0, 1, 3, 5, 7, 8, 11 ],//C,Db,Eb,F,G,Ab,B 
+	"Neoploitan Major"                  : [ 0, 1, 3, 5, 7, 9, 11 ],//C,Db,Eb,F,G,A,B 
+	"Neopolitan Minor"                  : [ 0, 1, 3, 5, 7, 8, 10 ],//C,Db,Eb,F,G,Ab,Bb 
+	"Nine Tone Scale"                   : [ 0, 2, 3, 4, 6, 7, 8, 9, 11 ],//C,D,D#,E,F#,G,G#,A,B 
+	"Oriental (a)"                      : [ 0, 1, 4, 5, 6, 8, 10 ],//C,Db,E,F,Gb,Ab,Bb 
+	"Oriental (b)"                      : [ 0, 1, 4, 5, 6, 9, 10 ],//C,Db,E,F,Gb,A,Bb 
+	"Overtone"                          : [ 0, 2, 4, 6, 7, 9, 10 ],//C,D,E,F#,G,A,Bb 
+	"Overtone Dominant"                 : [ 0, 2, 4, 6, 7, 9, 10 ],//C,D,E,F#,G,A,Bb 
+	"Pelog"                             : [ 0, 1, 3, 7, 8 ],//C,Db,Eb,G,Ab 
+	"Persian"                           : [ 0, 1, 4, 5, 6, 8, 11 ],//C,Db,E,F,Gb,Ab,B
+	"Prometheus"                        : [ 0, 2, 4, 6, 9, 10 ],//C,D,E,Gb,A,Bb
+	"Prometheus Neopolitan"             : [ 0, 1, 4, 6, 9, 10 ],//C,Db,E,Gb,A,Bb
+	"Pure Minor"                        : [ 0, 2, 3, 5, 7, 8, 10 ],//C,D,Eb,F,G,Ab,Bb 
+	"Purvi Theta"                       : [ 0, 1, 4, 6, 7, 8, 11 ],//C,Db,E,F#,G,Ab,B 
+	"Roumanian Minor"                   : [ 0, 2, 3, 6, 7, 9, 10 ],//C,D,Eb,F#,G,A,Bb
+	"Six Tone Symmetrical"              : [ 0, 1, 4, 5, 8, 9 ],//C,Db,E,F,G#,A
+	"Spanish Gypsy"                     : [ 0, 1, 4, 5, 7, 8, 10 ],//C,Db,E,F,G,Ab,Bb
+	"Super Locrian"                     : [ 0, 1, 3, 4, 6, 8, 10 ],//C,Db,D#,E,F#,G#,Bb
+	"Theta, Asavari"                    : [ 0, 2, 3, 5, 7, 8, 10 ],//C,D,Eb,F,G,Ab,Bb 
+	"Theta, Bilaval"                    : [ 0, 2, 4, 5, 7, 9, 11 ],//C,D,E,F,G,A,B 
+	"Theta, Bhairav"                    : [ 0, 1, 4, 5, 7, 8, 11 ],//C,Db,E,F,G,Ab,B 
+	"Theta, Bhairavi"                   : [ 0, 1, 3, 5, 7, 8, 10 ],//C,Db,Eb,F,G,Ab,Bb
+	"Theta, Kafi"                       : [ 0, 2, 3, 5, 7, 9, 10 ],//C,D,Eb,F,G,A,Bb
+	"Theta, Kalyan"                     : [ 0, 2, 4, 6, 7, 9, 11 ],//C,D,E,F#,G,A,B
+	"Theta, Khamaj"                     : [ 0, 2, 4, 5, 7, 9, 10 ],//C,D,E,F,G,A,Bb
+	"Theta, Marva"                      : [ 0, 1, 4, 6, 7, 9, 11 ],//C,Db,E,F#,G,A,B
+	"Todi Theta"                        : [ 0, 1, 3, 6, 7, 8, 11 ]//C,Db,Eb,F#,G,Ab,B
+}
