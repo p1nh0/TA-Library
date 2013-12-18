@@ -16,3 +16,6 @@ max objectfile o.bpm2ms o.bpm-ms;
 max objectfile o.ms2bpm o.bpm-ms;
 max objectfile o.list.learn o.listlearn;
 max objectfile o.notes2pitchclass o.note2pitchclass;
+max objectfile o.splitnote o.splitnotes;
+max objectfile o.stripnote o.stripnotes;
+max objectfile o.list.stream o.stream2list;

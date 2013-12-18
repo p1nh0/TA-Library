@@ -330,6 +330,13 @@
       "Control"
     ]
   },
+   "o.stream2list": {
+    "digest": "Make a list of size N from an input stream of numbers",
+    "module": "max",
+    "category": [
+      "Lists"
+    ]
+  },
   "o.stripnotes": {
     "digest": "Strip note lists",
     "module": "max",

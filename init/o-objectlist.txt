@@ -36,6 +36,7 @@ max oblist openlibrary o.routepak;
 max oblist openlibrary o.safeprompt; 
 max oblist openlibrary o.sortnotes; 
 max oblist openlibrary o.splitnotes; 
+max oblist openlibrary o.stream2list; 
 max oblist openlibrary o.stripnotes; 
 max oblist openlibrary o.symbolchange;
 max oblist openlibrary o.varfilter;
