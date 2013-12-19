@@ -33,13 +33,28 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 270.0, 258.0, 124.0, 22.0 ],
+					"presentation_rect" : [ 269.0, 250.0, 0.0, 0.0 ],
+					"text" : "remove velocity value"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 476.0, 75.0, 55.0, 33.0 ],
-					"presentation_rect" : [ 481.0, 104.5, 0.0, 0.0 ],
 					"text" : "input \nnotes"
 				}
 
@@ -57,7 +72,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 408.5, 95.0, 33.0 ],
-					"presentation_rect" : [ 61.0, 428.0, 0.0, 0.0 ],
 					"text" : "how many notes left ?"
 				}
 
@@ -74,7 +88,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 460.0, 103.0, 22.0 ],
-					"presentation_rect" : [ 240.0, 488.0, 0.0, 0.0 ],
 					"text" : "note if it matches"
 				}
 
@@ -298,6 +311,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
+					"embedstate" : [ [ "defer", 0 ] ],
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -332,7 +346,7 @@
 					}
 ,
 					"text" : "pattr @bindto scale",
-					"varname" : "u826000049"
+					"varname" : "u413000477"
 				}
 
 			}

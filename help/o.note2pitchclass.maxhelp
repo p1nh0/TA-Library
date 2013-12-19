@@ -173,22 +173,22 @@
 								"box" : 								{
 									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 									"color" : [ 0.65098, 0.65098, 0.65098, 1.0 ],
-									"embedstate" : [ [ "state", 0 ], [ "defer", 0 ] ],
+									"embedstate" : [ [ "defer", 0 ] ],
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 30.0, 216.5, 69.0, 18.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 30.0, 215.0, 106.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"filename" : "o.listlearn",
+										"filename" : "o.note2pitchclass",
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "js o.listlearn"
+									"text" : "js o.note2pitchclass"
 								}
 
 							}
@@ -243,7 +243,6 @@
 					}
 ,
 					"patching_rect" : [ 16.0, 60.0, 62.0, 18.0 ],
-					"presentation_rect" : [ 16.0, 60.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -325,7 +324,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 85.0, 251.0, 34.0, 19.0 ],
-									"presentation_rect" : [ 87.0, 251.0, 0.0, 0.0 ],
 									"text" : "clear"
 								}
 
@@ -445,6 +443,7 @@
 							}
 , 							{
 								"box" : 								{
+									"embedstate" : [ [ "defer", 0 ] ],
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-23",
@@ -480,7 +479,7 @@
 									}
 ,
 									"text" : "pattr @bindto kslider @invisible 1 @autorestore 0",
-									"varname" : "u760000124"
+									"varname" : "u552000231"
 								}
 
 							}
@@ -756,13 +755,6 @@
 			}
 , 			{
 				"name" : "o.stripvelocity.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.listlearn.js",
 				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
