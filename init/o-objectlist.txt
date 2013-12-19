@@ -42,3 +42,4 @@ max oblist openlibrary o.symbolchange;
 max oblist openlibrary o.varfilter;
 max oblist openlibrary o.vpr2note;
 max oblist openlibrary o.wrap;
+max oblist openlibrary o.stripvelocity

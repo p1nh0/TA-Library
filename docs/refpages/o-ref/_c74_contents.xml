@@ -44,6 +44,7 @@
 	<refpage name='o.sortnotes.maxref.xml' />
 	<refpage name='o.stream2list.maxref.xml' />
 	<refpage name='o.stripnotes.maxref.xml' />
+	<refpage name='o.stripvelocity.maxref.xml' />
 	<refpage name='o.symbolchange.maxref.xml' />
 	<refpage name='o.varfilter.maxref.xml' />
 	<refpage name='o.vpr2note.maxref.xml' />	

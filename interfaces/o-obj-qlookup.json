@@ -346,6 +346,15 @@
       "Lists"
     ]
   },
+  "o.stripvelocity": {
+    "digest": "Strip velocity values from a midi note list",
+    "module": "max",
+    "category": [
+      "Notes",
+      "MIDI",
+      "Lists"
+    ]
+  },
   "o.symbolchange": {
     "digest": "Filter out symbol repetitions",
     "module": "max",

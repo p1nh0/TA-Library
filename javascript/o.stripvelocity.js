@@ -6,8 +6,11 @@ setinletassist(0, "note-velocity list");
 setoutletassist(0, "note list");
 setoutletassist(1, "velocity list"); 
 
-list.immediate = 1;
-msg_int.immediate = 1; 
+var defer = 0;
+declareattribute("defer", null, null, 1);
+
+list.immediate = 1 - defer;
+msg_int.immediate = 1 - defer; 
 function list() 
 {
 	l = arrayfromargs(messagename, arguments); 
