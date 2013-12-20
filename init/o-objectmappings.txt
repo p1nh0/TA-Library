@@ -19,3 +19,4 @@ max objectfile o.notes2pitchclass o.note2pitchclass;
 max objectfile o.splitnote o.splitnotes;
 max objectfile o.stripnote o.stripnotes;
 max objectfile o.list.stream o.stream2list;
+max objectfile o.pattr.utils o.pattrutils;
