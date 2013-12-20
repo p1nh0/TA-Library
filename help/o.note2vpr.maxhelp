@@ -736,14 +736,7 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "o.printerror.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/System",
-				"patcherrelativepath" : "../patchers/o-max/System",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
+,			{
 				"name" : "o.vpr2note.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/MIDI",
 				"patcherrelativepath" : "../patchers/o-max/MIDI",

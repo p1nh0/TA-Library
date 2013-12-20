@@ -428,8 +428,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 231.0, 375.0, 130.0, 18.0 ],
-									"text" : "o.printerror o.multisend~"
+									"patching_rect" : [ 231.0, 375.0, 140.0, 18.0 ],
+									"text" : "mxj printerror o.multisend~"
 								}
 
 							}
@@ -2003,16 +2003,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.printerror.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/other",
-				"patcherrelativepath" : "../other",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

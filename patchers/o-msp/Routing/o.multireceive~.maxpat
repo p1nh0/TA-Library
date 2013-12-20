@@ -422,11 +422,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-2",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patching_rect" : [ 231.0, 365.0, 141.0, 18.0 ],
-									"text" : "o.printerror o.multireceive~"
+									"text" : "mxj printerror o.multireceive~"
 								}
 
 							}
@@ -2009,15 +2010,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "o.listaccum.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/Lists",
-				"patcherrelativepath" : "../Lists",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "o.printerror.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open Instruments_0.6.1a_dev/patchers/Libs/Olib/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"patcherrelativepath" : "../../o-max/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
