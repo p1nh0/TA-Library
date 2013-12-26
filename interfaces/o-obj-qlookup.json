@@ -121,6 +121,13 @@
       "Math"
     ]
   },
+    "o.deletefile": {
+    "digest": "Delete Files",
+    "module": "max",
+    "category": [
+      "Files"
+    ]
+  },
   "o.emptymessagefilter": {
     "digest": "Filter Max's empty messages",  
     "module": "max",
@@ -219,6 +226,13 @@
     "module": "max",
     "category": [
       "Lists"
+    ]
+  },
+    "o.makefolder": {
+    "digest": "Make Folders",
+    "module": "max",
+    "category": [
+      "Files"
     ]
   },
   "o.meandiff": {

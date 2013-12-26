@@ -16,6 +16,7 @@
 	<refpage name='o.copyfile.maxref.xml' />
 	<refpage name='o.crossover.maxref.xml' />
 	<refpage name='o.deg2rad.maxref.xml' />
+	<refpage name='o.deletefile.maxref.xml' />
 	<refpage name='o.emptymessagefilter.maxref.xml'/>
 	<refpage name='o.f2i.maxref.xml' />
 	<refpage name='o.filterintervals.maxref.xml' />
@@ -29,6 +30,7 @@
 	<refpage name='o.listcomparison.maxref.xml' />
 	<refpage name='o.listlearn.maxref.xml' />
 	<refpage name='o.listremove.maxref.xml' />
+	<refpage name='o.makefolder.maxref.xml' />
 	<refpage name='o.meandiff.maxref.xml' />
 	<refpage name='o.note2vpr.maxref.xml' />
 	<refpage name='o.num2list.maxref.xml' />
