@@ -1,5 +1,6 @@
-TA-Library (Tiago Ângelo)
-released under LGPL v3
+TA-Library (Tiago Ângelo) 
+
 =================================
 
 Collection of MaxMSP abstractions
+(released under LGPL v3)
