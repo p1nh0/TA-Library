@@ -107,11 +107,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 230.0, 145.0, 81.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "o.stripvelocity",
+						"filename" : "ta.stripvelocity",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js o.stripvelocity"
+					"text" : "js ta.stripvelocity"
 				}
 
 			}
@@ -226,11 +226,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.0, 195.0, 116.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "o.findclosestnote",
+						"filename" : "ta.findclosestnote",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js o.findclosestnote -1"
+					"text" : "js ta.findclosestnote -1"
 				}
 
 			}
@@ -310,15 +310,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.findclosestnote.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
+				"name" : "ta.findclosestnote.js",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.stripvelocity.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
+				"name" : "ta.stripvelocity.js",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1

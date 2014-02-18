@@ -1,2 +1,2 @@
-max definecommand O patcher inserttextobj o.;
-max definecommandinstructions patcher O "openlibrary object";
+max definecommand T patcher inserttextobj ta.;
+max definecommandinstructions patcher T "TA-Library object";

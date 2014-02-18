@@ -275,7 +275,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
 					"patching_rect" : [ 140.0, 361.0, 63.0, 18.0 ],
-					"text" : "o.listmatch"
+					"text" : "ta.listmatch"
 				}
 
 			}
@@ -322,11 +322,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 184.0, 260.0, 89.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "o.stripvelocity",
+						"filename" : "ta.stripvelocity",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js o.stripvelocity"
+					"text" : "js ta.stripvelocity"
 				}
 
 			}
@@ -570,15 +570,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.stripvelocity.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
+				"name" : "ta.stripvelocity.js",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.listmatch.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"name" : "ta.listmatch.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Lists",
 				"patcherrelativepath" : "../patchers/o-max/Lists",
 				"type" : "JSON",
 				"implicit" : 1

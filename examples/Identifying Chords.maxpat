@@ -161,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 402.0, 72.0, 121.0, 48.0 ],
-					"text" : "dict containg chords, \nused by o.chordidentifier"
+					"text" : "dict containg chords, \nused by ta.chordidentifier"
 				}
 
 			}
@@ -236,11 +236,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 154.0, 295.0, 101.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "o.chordidentifier",
+						"filename" : "ta.chordidentifier",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js o.chordidentifier"
+					"text" : "js ta.chordidentifier"
 				}
 
 			}
@@ -437,8 +437,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.chordidentifier.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
+				"name" : "ta.chordidentifier.js",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1

@@ -706,7 +706,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 15.0, 265.0, 112.0, 18.0 ],
-					"text" : "o.filterintervals 1 7 11"
+					"text" : "ta.filterintervals 1 7 11"
 				}
 
 			}
@@ -947,15 +947,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.filterintervals.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/MIDI",
+				"name" : "ta.filterintervals.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/MIDI",
 				"patcherrelativepath" : "../patchers/o-max/MIDI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.abs.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Math",
+				"name" : "ta.abs.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Math",
 				"patcherrelativepath" : "../patchers/o-max/Math",
 				"type" : "JSON",
 				"implicit" : 1

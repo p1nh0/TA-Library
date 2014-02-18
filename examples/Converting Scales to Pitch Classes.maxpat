@@ -398,11 +398,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 217.0, 329.0, 89.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "o.stripvelocity",
+						"filename" : "ta.stripvelocity",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js o.stripvelocity"
+					"text" : "js ta.stripvelocity"
 				}
 
 			}
@@ -436,11 +436,11 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.0, 363.0, 106.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "o.note2pitchclass",
+						"filename" : "ta.note2pitchclass",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js o.note2pitchclass"
+					"text" : "js ta.note2pitchclass"
 				}
 
 			}
@@ -551,15 +551,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.note2pitchclass.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
+				"name" : "ta.note2pitchclass.js",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.stripvelocity.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/javascript",
+				"name" : "ta.stripvelocity.js",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1

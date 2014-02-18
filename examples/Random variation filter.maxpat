@@ -130,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 271.0, 210.0, 328.0, 22.0 ],
-					"text" : "use o.automean to automatically the variation threshold of o.varfilter"
+					"text" : "use ta.automean to automatically the variation threshold of ta.varfilter"
 				}
 
 			}
@@ -392,7 +392,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
 					"patching_rect" : [ 105.0, 280.0, 56.0, 40.0 ],
-					"text" : "o.varfilter @mode 1 @type 3"
+					"text" : "ta.varfilter @mode 1 @type 3"
 				}
 
 			}
@@ -461,7 +461,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "int", "int" ],
 					"patching_rect" : [ 142.0, 210.0, 129.0, 18.0 ],
-					"text" : "o.automean 2 @scale 0.8"
+					"text" : "ta.automean 2 @scale 0.8"
 				}
 
 			}
@@ -951,15 +951,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.automean.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"name" : "ta.automean.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Lists",
 				"patcherrelativepath" : "../patchers/o-max/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.varfilter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Math",
+				"name" : "ta.varfilter.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Math",
 				"patcherrelativepath" : "../patchers/o-max/Math",
 				"type" : "JSON",
 				"implicit" : 1

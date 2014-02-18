@@ -295,7 +295,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 162.5, 425.0, 102.0, 18.0 ],
-					"text" : "o.prob-rhythm"
+					"text" : "ta.prob-rhythm"
 				}
 
 			}
@@ -692,7 +692,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.5, 205.0, 84.0, 18.0 ],
-					"text" : "o.list.crossover"
+					"text" : "ta.list.crossover"
 				}
 
 			}
@@ -907,15 +907,15 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "o.crossover.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"name" : "ta.crossover.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Lists",
 				"patcherrelativepath" : "../patchers/o-max/Lists",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.prob-rhythm.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/MIDI",
+				"name" : "ta.prob-rhythm.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/MIDI",
 				"patcherrelativepath" : "../patchers/o-max/MIDI",
 				"type" : "JSON",
 				"implicit" : 1

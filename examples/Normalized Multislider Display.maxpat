@@ -152,7 +152,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 55.0, 245.0, 151.0, 18.0 ],
-					"text" : "o.autorange -5 5 @outmode 1"
+					"text" : "ta.autorange -5 5 @outmode 1"
 				}
 
 			}
@@ -276,8 +276,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "o.autorange.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"name" : "ta.autorange.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Lists",
 				"patcherrelativepath" : "../patchers/o-max/Lists",
 				"type" : "JSON",
 				"implicit" : 1

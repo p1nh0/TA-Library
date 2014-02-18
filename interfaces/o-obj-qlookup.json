@@ -1,5 +1,5 @@
 { 
-  "o.abs": {
+  "ta.abs": {
     "digest": "Calculate absolute values on lists",
     "module": "max",
     "category": [
@@ -7,7 +7,7 @@
       "Lists"
     ]
   },
-  "o.activity": {
+  "ta.activity": {
     "digest": "Data flow activity",
     "module": "max",
     "category": [
@@ -16,7 +16,7 @@
       "Math" 
     ]
   },
-  "o.automean": {
+  "ta.automean": {
     "digest": "Calculate mean and mean difference from a stream of numbers",
     "module": "max",
     "category": [
@@ -25,7 +25,7 @@
       "Math" 
     ]
   },
-  "o.autorange": {
+  "ta.autorange": {
     "digest": "Get minimum and maximum values from an input number stream",
     "module": "max",
     "category": [
@@ -34,7 +34,7 @@
       "Math" 
     ]
   },
-  "o.bpm-ms": {
+  "ta.bpm-ms": {
     "digest": "bpm to ms and vice versa",
     "module": "max",
     "category": [
@@ -42,35 +42,35 @@
       "Math"
     ]
   }, 
-  "o.button2switch": {
+  "ta.button2switch": {
     "digest": "Turn input button into a switch",
     "module": "max",
     "category": [
       "Control"
     ]
   }, 
-  "o.capture": {
+  "ta.capture": {
     "digest": "Store values to view or edit",
     "module": "max",
     "category": [
       "Control"
     ]
   },
-  "o.ceil": {
+  "ta.ceil": {
     "digest": "Ceil input float to int",
     "module": "max",
     "category": [
       "Math"
     ]
   },
-  "o.checkumenuitem": {
+  "ta.checkumenuitem": {
     "digest": "DEPRECATED",
     "module": "olib",
     "category": [
-      "Open-Library DEPRECATED"
+      "TA-Library DEPRECATED"
     ]
   },
-  "o.chordidentifier": {
+  "ta.chordidentifier": {
     "digest": "Identify chords",
     "module": "max",
     "category": [
@@ -78,14 +78,14 @@
       "MIDI"
     ]
   },
-  "o.clip": {
+  "ta.clip": {
     "digest": "DEPRECATED",
     "module": "olib",
     "category": [
-      "Open-Library DEPRECATED"
+      "TA-Library DEPRECATED"
     ]
   },
-  "o.clipnotes": {
+  "ta.clipnotes": {
     "digest": "Clip MIDI notes",
     "module": "max",
     "category": [
@@ -93,49 +93,49 @@
       "Control"
     ]
   },
-  "o.clocker": {
+  "ta.clocker": {
     "digest": "Similar to clocker",
     "module": "max",
     "category": [
       "Timing"
     ]
   },
-  "o.copyfile": {
+  "ta.copyfile": {
     "digest": "Copy file",
     "module": "max",
     "category": [
       "Files"
     ]
   },
-  "o.crossover": {
+  "ta.crossover": {
     "digest": "Generate lists by mixing two parent lists",
     "module": "max",
     "category": [
       "Lists"
     ]
   },
-  "o.deg2rad": {
+  "ta.deg2rad": {
     "digest": "Convert degrees to radians",
     "module": "max",
     "category": [
       "Math"
     ]
   },
-    "o.deletefile": {
+    "ta.deletefile": {
     "digest": "Delete Files",
     "module": "max",
     "category": [
       "Files"
     ]
   },
-  "o.emptymessagefilter": {
+  "ta.emptymessagefilter": {
     "digest": "Filter Max's empty messages",  
     "module": "max",
     "category": [
       "Data"
     ]
   },
-  "o.f2i": {
+  "ta.f2i": {
     "digest": "Float to integer",
     "module": "max",
     "category": [
@@ -143,7 +143,7 @@
       "Math"
     ]
   },
-    "o.filterintervals": {
+    "ta.filterintervals": {
     "digest": "Filter notes by interval",
     "module": "max",
     "category": [
@@ -151,7 +151,7 @@
       "Control"
     ]
   },
-    "o.filterintervals": {
+    "ta.filterintervals": {
     "digest": "Find closest note",
     "module": "max",
     "category": [
@@ -159,7 +159,7 @@
       "MIDI"
     ]
   },
-  "o.fold": {
+  "ta.fold": {
     "digest": "Fold input numbers between a given range",
     "module": "max",
     "category": [
@@ -167,28 +167,28 @@
       "Lists"
     ]
   },
-  "o.heldnotes": {
+  "ta.heldnotes": {
     "digest": "Track held notes",
     "module": "max",
     "category": [
       "MIDI"
     ]
   },
-  "o.holdmessage": {
+  "ta.holdmessage": {
     "digest": "DEPRECATED",
     "module": "olib",
     "category": [
-      "Open-Library DEPRECATED"
+      "TA-Library DEPRECATED"
     ]
   },
-  "o.list.ramp": {
+  "ta.list.ramp": {
     "digest": "DEPRECATED",
     "module": "olib",
     "category": [
-      "Open-Library DEPRECATED"
+      "TA-Library DEPRECATED"
     ]
   },
-  "o.listaccum": {
+  "ta.listaccum": {
     "digest": "Accumulate items into a list",
     "module": "max",
     "category": [
@@ -196,7 +196,7 @@
       "Data"
     ]
   },
-  "o.listchange": {
+  "ta.listchange": {
     "digest": "Filter out repeated lists",
     "module": "max",
     "category": [
@@ -204,7 +204,7 @@
       "Lists"
     ]
   },
-  "o.listcomparison": {
+  "ta.listcomparison": {
     "digest": "Compare all items in a list",
     "module": "max",
     "category": [
@@ -213,7 +213,7 @@
       "Math"
     ]
   },
-  "o.listlearn": {
+  "ta.listlearn": {
     "digest": "Learn unique elements from data streams",
     "module": "max",
     "category": [
@@ -221,21 +221,21 @@
       "Data"
     ]
   },
-  "o.listremove": {
+  "ta.listremove": {
     "digest": "Remove items from a stored list",
     "module": "max",
     "category": [
       "Lists"
     ]
   },
-    "o.makefolder": {
+    "ta.makefolder": {
     "digest": "Make Folders",
     "module": "max",
     "category": [
       "Files"
     ]
   },
-  "o.meandiff": {
+  "ta.meandiff": {
     "digest": "Mean difference",
     "module": "max",
     "category": [
@@ -243,7 +243,7 @@
       "Lists"
     ]
   },
-   "o.note2vpr": {
+   "ta.note2vpr": {
     "digest": "Convert note to virtual pitch and register",
     "module": "max",
     "category": [
@@ -251,7 +251,7 @@
       "Data"
     ]
   },
-   "o.num2list": {
+   "ta.num2list": {
     "digest": "Number to list",
     "module": "max",
     "category": [
@@ -259,21 +259,21 @@
       "Control"
     ]
   },
-  "o.onebanggate": {
+  "ta.onebanggate": {
     "digest": "Onebang gate",
     "module": "max",
     "category": [
       "Control"
     ]
   },
-  "o.pattrlist": {
+  "ta.pattrlist": {
     "digest": "Bind to multiple pattr objects",
     "module": "max",
     "category": [
       "Data"
     ]
   },
-   "o.prob-rhythm": {
+   "ta.prob-rhythm": {
     "digest": "Generate rhythm throuhg unconditional probabilities",
     "module": "max",
     "category": [
@@ -282,14 +282,14 @@
       "Lists"
     ]
   },
-  "o.rad2deg": {
+  "ta.rad2deg": {
     "digest": "Convert radians to degrees",
     "module": "max",
     "category": [
       "Math"
     ]
   },
-  "o.ramp": {
+  "ta.ramp": {
     "digest": "Convert radians to degrees",
     "module": "max",
     "category": [
@@ -297,7 +297,7 @@
       "Timing"
     ]
   },
-  "o.routejoin": {
+  "ta.routejoin": {
     "digest": "Route and join",
     "module": "max",
     "category": [
@@ -305,7 +305,7 @@
       "Control"
     ]
   },
-  "o.routepack": {
+  "ta.routepack": {
     "digest": "Route and pack",
     "module": "max",
     "category": [
@@ -313,7 +313,7 @@
       "Control"
     ]
   },
-    "o.routepak": {
+    "ta.routepak": {
     "digest": "Route and pak",
     "module": "max",
     "category": [
@@ -321,14 +321,14 @@
       "Control"
     ]
   },
-  "o.safeprompt": {
+  "ta.safeprompt": {
     "digest": "Safe prompt",
     "module": "max",
     "category": [
       "Interaction"
     ]
   },
-  "o.sortnotes": {
+  "ta.sortnotes": {
     "digest": "Sort note lists",
     "module": "max",
     "category": [
@@ -336,7 +336,7 @@
       "Lists"
     ]
   },
-  "o.splitnotes": {
+  "ta.splitnotes": {
     "digest": "Split note-on and note-off messages",
     "module": "max",
     "category": [
@@ -344,14 +344,14 @@
       "Control"
     ]
   },
-   "o.stream2list": {
+   "ta.stream2list": {
     "digest": "Make a list of size N from an input stream of numbers",
     "module": "max",
     "category": [
       "Lists"
     ]
   },
-  "o.stripnotes": {
+  "ta.stripnotes": {
     "digest": "Strip note lists",
     "module": "max",
     "category": [
@@ -360,7 +360,7 @@
       "Lists"
     ]
   },
-  "o.stripvelocity": {
+  "ta.stripvelocity": {
     "digest": "Strip velocity values from a midi note list",
     "module": "max",
     "category": [
@@ -369,21 +369,21 @@
       "Lists"
     ]
   },
-  "o.symbolchange": {
+  "ta.symbolchange": {
     "digest": "Filter out symbol repetitions",
     "module": "max",
     "category": [
       "Control"
     ]
   },
-  "o.varfilter": {
+  "ta.varfilter": {
     "digest": "Filter variations",
     "module": "max",
     "category": [
       "Math"
     ]
   },
-    "o.vpr2note": {
+    "ta.vpr2note": {
     "digest": "Convert virtual pitch and register to note",
     "module": "max",
     "category": [
@@ -391,7 +391,7 @@
       "Data"
     ]
   },
-  "o.wrap": {
+  "ta.wrap": {
     "digest": "Wrap input numbers between a given range",
     "module": "max",
     "category": [

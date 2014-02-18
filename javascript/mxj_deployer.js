@@ -1,4 +1,4 @@
-// get patcher name (ex: "o.rad2deg")
+// get patcher name (ex: "ta.rad2deg")
 var objname = this.patcher.name;
 var a, c; 
 

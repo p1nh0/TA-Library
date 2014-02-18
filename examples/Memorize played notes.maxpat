@@ -128,7 +128,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 20.0, 130.0, 131.0, 18.0 ],
-					"text" : "o.listaccum @autoclear 0"
+					"text" : "ta.listaccum @autoclear 0"
 				}
 
 			}
@@ -263,8 +263,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o.listaccum.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/o-max/Lists",
+				"name" : "ta.listaccum.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Lists",
 				"patcherrelativepath" : "../patchers/o-max/Lists",
 				"type" : "JSON",
 				"implicit" : 1

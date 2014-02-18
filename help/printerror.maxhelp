@@ -68,6 +68,20 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 227.5, 274.0, 57.0, 17.0 ],
+									"text" : "loadmess 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"bubbleside" : 2,
 									"fontname" : "Arial",
@@ -206,7 +220,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 520.0, 0.0, 180.0, 60.0 ],
-									"pic" : "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/media/logo.png"
+									"pic" : "logo.png"
 								}
 
 							}
@@ -216,7 +230,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "o.printerror" ],
+									"jsarguments" : [ "ta.printerror" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -232,7 +246,7 @@
 									"filename" : "helpargs.js",
 									"id" : "obj-4",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "o.printerror" ],
+									"jsarguments" : [ "ta.printerror" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -249,6 +263,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -380,7 +403,7 @@
 			}
 , 			{
 				"name" : "logo.png",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/media",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
