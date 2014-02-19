@@ -9,7 +9,7 @@
 	</digest>
 	<description>
 		Allows you to bound to several pattr objects, where you can get/set values through lists.
-		This abstractions is a wrapper for o_polypattr. See o_polypattr.maxhelp for complementary information, or to design slightly different list features for pattr objects.
+		This abstractions is a wrapper for ta_polypattr. See ta_polypattr.maxhelp for complementary information, or to design slightly different list features for pattr objects.
 	</description>
 	<!--METADATA-->
 	<metadatalist>
@@ -111,7 +111,7 @@
 	</examplelist>
 	<!--SEEALSO-->
 	<seealsolist>
-		<seealso name="o_polypattr" />
+		<seealso name="ta_polypattr" />
 		<seealso name="pattr" />
 		<seealso name="autopattr" />
 		<seealso name="pattrforward" />
