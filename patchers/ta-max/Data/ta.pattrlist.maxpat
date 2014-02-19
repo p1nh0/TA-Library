@@ -24,7 +24,7 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
-		"description" : "This abstractions is a wrapper for o_polypattr. See o_polypattr.maxhelp for complementary information.",
+		"description" : "This abstractions is a wrapper for ta_polypattr. See ta_polypattr.maxhelp for complementary information.",
 		"digest" : "Bind to multiple pattr objects",
 		"tags" : "TA-Library Data",
 		"boxes" : [ 			{
@@ -275,14 +275,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 108.0, 430.0, 202.0, 18.0 ],
-					"text" : "poly~ o_polypattr #1 @args #0-polypattr",
+					"text" : "poly~ ta_polypattr #1 @args #0-polypattr",
 					"varname" : "ta.pattr~"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(anything) messages to 'poly~ o_polypattr'",
+					"comment" : "(anything) messages to 'poly~ ta_polypattr'",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -541,7 +541,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "o_polypattr.maxpat",
+				"name" : "ta_polypattr.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Data",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
