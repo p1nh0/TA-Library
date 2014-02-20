@@ -31,6 +31,7 @@ max oblist ta-library ta.num2list;
 max oblist ta-library ta.onebanggate;
 max oblist ta-library ta.pattrlist;
 max oblist ta-library ta.pattrutils;
+max oblist ta-library ta.pitch2speed;
 max oblist ta-library ta.rad2deg;
 max oblist ta-library ta.ramp;
 max oblist ta-library ta.routejoin;

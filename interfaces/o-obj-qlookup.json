@@ -273,6 +273,13 @@
       "Data"
     ]
   },
+  "ta.pitch2speed": {
+    "digest": "Pitch to speed",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  },
    "ta.prob-rhythm": {
     "digest": "Generate rhythm throuhg unconditional probabilities",
     "module": "max",
