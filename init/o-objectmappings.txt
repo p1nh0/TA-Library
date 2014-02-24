@@ -22,3 +22,4 @@ max objectfile ta.list.stream ta.stream2list;
 max objectfile ta.pattr.utils ta.pattrutils;
 max objectfile ta.bypass-mono~ ta.bypass~; 
 max objectfile ta.p2s ta.pitch2speed;
+max objectfile ta.t2c ta.temp2speed;

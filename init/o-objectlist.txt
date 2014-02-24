@@ -43,6 +43,7 @@ max oblist ta-library ta.splitnotes;
 max oblist ta-library ta.stream2list; 
 max oblist ta-library ta.stripnotes; 
 max oblist ta-library ta.symbolchange;
+max oblist ta-library ta.temp2speed;
 max oblist ta-library ta.varfilter;
 max oblist ta-library ta.vpr2note;
 max oblist ta-library ta.wrap;

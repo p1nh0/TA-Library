@@ -383,6 +383,13 @@
       "Control"
     ]
   },
+  "ta.temp2speed": {
+    "digest": "Temperature to speed of sound (air)",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  },
   "ta.varfilter": {
     "digest": "Filter variations",
     "module": "max",
