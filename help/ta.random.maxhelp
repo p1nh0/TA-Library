@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
+		"rect" : [ 109.0, 266.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -278,7 +278,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
+						"rect" : [ 109.0, 292.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -310,7 +310,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 580.0, 338.0, 106.0, 38.0 ],
-									"presentation_rect" : [ 546.0, 313.0, 0.0, 0.0 ],
 									"text" : "it's ok to do this "
 								}
 
@@ -325,7 +324,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 529.0, 402.0, 50.0, 17.0 ],
-									"presentation_rect" : [ 530.0, 399.0, 0.0, 0.0 ],
 									"text" : "5"
 								}
 
@@ -337,8 +335,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 560.0, 338.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 561.0, 344.0, 0.0, 0.0 ]
+									"patching_rect" : [ 560.0, 338.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -370,7 +367,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 330.0, 375.0, 147.0, 23.0 ],
-									"presentation_rect" : [ 491.0, 368.5, 0.0, 0.0 ],
 									"text" : "set lower and upper limit"
 								}
 
@@ -401,8 +397,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 218.0, 402.0, 50.0, 17.0 ],
-									"presentation_rect" : [ 370.0, 401.0, 0.0, 0.0 ]
+									"patching_rect" : [ 218.0, 402.0, 50.0, 17.0 ]
 								}
 
 							}
@@ -413,8 +408,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 249.0, 347.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 401.0, 346.0, 0.0, 0.0 ]
+									"patching_rect" : [ 249.0, 347.0, 20.0, 20.0 ]
 								}
 
 							}
