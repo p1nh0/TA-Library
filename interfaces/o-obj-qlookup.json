@@ -34,14 +34,14 @@
       "Math" 
     ]
   },
-  "ta.bpm-ms": {
+  "ta.bpm2ms": {
     "digest": "bpm to ms and vice versa",
     "module": "max",
     "category": [
       "Timing",
       "Math"
     ]
-  }, 
+  },
   "ta.button2switch": {
     "digest": "Turn input button into a switch",
     "module": "max",

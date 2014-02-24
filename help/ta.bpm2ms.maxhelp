@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 398.0, 183.0, 700.0, 454.0 ],
+		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 398.0, 209.0, 700.0, 428.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -180,8 +180,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 430.0, 255.0, 58.0, 18.0 ],
-									"text" : "ta.bpm-ms"
+									"patching_rect" : [ 430.0, 255.0, 63.0, 18.0 ],
+									"text" : "ta.ms2bpm"
 								}
 
 							}
@@ -286,8 +286,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 160.0, 255.0, 58.0, 18.0 ],
-									"text" : "ta.bpm-ms"
+									"patching_rect" : [ 160.0, 255.0, 63.0, 18.0 ],
+									"text" : "ta.bpm2ms"
 								}
 
 							}
@@ -309,7 +309,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "ta.bpm-ms" ],
+									"jsarguments" : [ "ta.bpm2ms" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -485,9 +485,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ta.bpm-ms.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Timing",
-				"patcherrelativepath" : "../patchers/o-max/Timing",
+				"name" : "ta.bpm2ms.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/ta-max/Timing",
+				"patcherrelativepath" : "../patchers/ta-max/Timing",
 				"type" : "JSON",
 				"implicit" : 1
 			}

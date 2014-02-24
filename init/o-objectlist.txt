@@ -2,7 +2,7 @@ max oblist ta-library ta.abs;
 max oblist ta-library ta.activity;
 max oblist ta-library ta.automean;
 max oblist ta-library ta.autorange;
-max oblist ta-library ta.bpm-ms;
+max oblist ta-library ta.bpm2ms;
 max oblist ta-library ta.button2switch;
 max oblist ta-library ta.capture; 
 max oblist ta-library ta.ceil;
