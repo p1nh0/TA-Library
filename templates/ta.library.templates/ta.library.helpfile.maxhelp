@@ -88,7 +88,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 520.0, 0.0, 180.0, 60.0 ],
-									"pic" : "Macintosh HD:/Applications/Max 6.1/packages/Open-Library/media/logta.png"
+									"pic" : "logo.png"
 								}
 
 							}
@@ -224,8 +224,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "logta.png",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/media",
+				"name" : "logo.png",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG ",
 				"implicit" : 1
