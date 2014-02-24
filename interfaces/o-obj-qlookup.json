@@ -390,6 +390,13 @@
       "Math"
     ]
   },
+  "ta.urn": {
+    "digest": "Generate random numbers without duplicates",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  },
   "ta.varfilter": {
     "digest": "Filter variations",
     "module": "max",

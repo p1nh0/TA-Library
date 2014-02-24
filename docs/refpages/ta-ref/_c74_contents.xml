@@ -52,6 +52,7 @@
 	<refpage name='ta.stripvelocity.maxref.xml' />
 	<refpage name='ta.symbolchange.maxref.xml' />
 	<refpage name='ta.temp2speed.maxref.xml' />
+	<refpage name='ta.urn.maxref.xml' />
 	<refpage name='ta.varfilter.maxref.xml' />
 	<refpage name='ta.vpr2note.maxref.xml' />	
 	<refpage name='ta.wrap.maxref.xml' />
