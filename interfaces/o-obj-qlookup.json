@@ -304,6 +304,13 @@
       "Timing"
     ]
   },
+  "ta.random": {
+    "digest": "Generate random numbers within a certain range",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  },
   "ta.routejoin": {
     "digest": "Route and join",
     "module": "max",

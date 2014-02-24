@@ -42,6 +42,7 @@
 	<refpage name='ta.pitch2speed.maxref.xml' />
 	<refpage name='ta.rad2deg.maxref.xml' />
 	<refpage name='ta.ramp.maxref.xml' />
+	<refpage name='ta.random.maxref.xml' />
 	<refpage name='ta.routejoin.maxref.xml' />
 	<refpage name='ta.routepack.maxref.xml' />
 	<refpage name='ta.routepak.maxref.xml' />
