@@ -13,6 +13,7 @@ max oblist ta-library ta.copyfile;
 max oblist ta-library ta.crossover;
 max oblist ta-library ta.deg2rad;
 max oblist ta-library ta.deletefile;
+max oblist ta-library ta.drunk;
 max oblist ta-library ta.emptymessagefilter; 
 max oblist ta-library ta.f2i;
 max oblist ta-library ta.filterintervals;
