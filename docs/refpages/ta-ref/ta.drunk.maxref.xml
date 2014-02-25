@@ -71,15 +71,15 @@
 	</outletlist>
 	<!--ARGUMENTS-->
 	<objarglist>
-		<objarg name="upper limit" optional="1" type="int">
+		<objarg name="max" optional="1" type="int">
 			<digest>
-				Set the upper limit for output, inclusively
+				Set the upper limit for output, inclusively (default max = 127, default min = 0)
 			</digest>
 			<description>
 				Sets the maximum number produced. If this argument is not provided, the maximum limit is set to 127.
 			</description>
 		</objarg>
-		<objarg name="lower and upper limit" optional="1" type="list">
+		<objarg name="min-max" optional="1" type="list">
 			<digest>
 				Range: Lower and Upper Limit
 			</digest>
@@ -88,9 +88,9 @@
 				These are inclusive, meaning that the random generator can output numbers equal to the lower and upper limit.
 			</description>
 		</objarg>
-		<objarg name="range and randomness" optional="1" type="list">
+		<objarg name="min-max-rand" optional="1" type="list">
 			<digest>
-				Set the lower and upper limit, plus randomness (similar to <o>drunk</o> step size)
+				Set the lower limit, upper limit and randomness
 			</digest>
 			<description>
 				When three integers are provided as an argument, the first integer sets the lower limit and the second integer sets the upper limit. These are inclusive, meaning that the random generator can output numbers equal to the lower and upper limit.

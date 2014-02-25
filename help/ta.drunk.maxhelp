@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -494,8 +494,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 8.0, 39.0, 62.0, 18.0 ],
-					"presentation_rect" : [ -1.0, 39.0, 0.0, 0.0 ],
+					"patching_rect" : [ 0.0, 10.0, 42.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -509,8 +508,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p advanced",
-					"varname" : "advanced_tab"
+					"text" : "p basic",
+					"varname" : "basic_tab"
 				}
 
 			}
@@ -531,7 +530,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
+						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -689,7 +688,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 328.5, 95.0, 41.0, 21.0 ],
-									"presentation_rect" : [ 280.0, 114.0, 0.0, 0.0 ],
 									"prototypename" : "oi.help_digest",
 									"text" : "Set",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -852,7 +850,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 10.0, 50.0, 18.0 ],
+					"patching_rect" : [ 19.0, 65.0, 62.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -866,8 +864,8 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p basic",
-					"varname" : "basic_tab"
+					"text" : "p advanced",
+					"varname" : "advanced_tab"
 				}
 
 			}

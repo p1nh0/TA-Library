@@ -51,8 +51,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.0, 255.0, 68.0, 29.0 ],
-					"text" : "expr $i2 - $i1 +1"
+					"patching_rect" : [ 314.0, 255.0, 71.0, 29.0 ],
+					"text" : "expr $i2 - $i1 + 1"
 				}
 
 			}
