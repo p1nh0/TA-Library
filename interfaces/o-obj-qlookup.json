@@ -318,6 +318,13 @@
       "Math"
     ]
   },
+  "ta.randomwalk": {
+    "digest": "Random walk generator",
+    "module": "max",
+    "category": [
+      "Math"
+    ]
+  },
   "ta.routejoin": {
     "digest": "Route and join",
     "module": "max",

@@ -36,6 +36,7 @@ max oblist ta-library ta.pitch2speed;
 max oblist ta-library ta.rad2deg;
 max oblist ta-library ta.ramp;
 max oblist ta-library ta.random;
+max oblist ta-library ta.randomwalk;
 max oblist ta-library ta.routejoin;
 max oblist ta-library ta.routepack;
 max oblist ta-library ta.routepak;
