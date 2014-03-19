@@ -21,3 +21,6 @@ max objectfile ta.pattr.utils ta.pattrutils;
 max objectfile ta.bypass-mono~ ta.bypass~; 
 max objectfile ta.p2s ta.pitch2speed;
 max objectfile ta.t2c ta.temp2speed;
+max objectfile ta.voss ta.vossfractal;
+max objectfile ta.dyn2vel ta.dynamics2velocity;
+max objectfile ta.vel2dyn ta.velocity2dynamics;

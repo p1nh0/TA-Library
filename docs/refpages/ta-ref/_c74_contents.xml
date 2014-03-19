@@ -17,6 +17,7 @@
 	<refpage name='ta.crossover.maxref.xml' />
 	<refpage name='ta.deg2rad.maxref.xml' />
 	<refpage name='ta.deletefile.maxref.xml' />
+	<refpage name='ta.dynamics2velocity.maxref.xml' />
 	<refpage name='ta.drunk.maxref.xml' />
 	<refpage name='ta.emptymessagefilter.maxref.xml'/>
 	<refpage name='ta.f2i.maxref.xml' />
@@ -57,6 +58,8 @@
 	<refpage name='ta.temp2speed.maxref.xml' />
 	<refpage name='ta.urn.maxref.xml' />
 	<refpage name='ta.varfilter.maxref.xml' />
+	<refpage name='ta.velocity2dynamics.maxref.xml' />
+	<refpage name='ta.vossfractal.maxref.xml' />
 	<refpage name='ta.vpr2note.maxref.xml' />	
 	<refpage name='ta.wrap.maxref.xml' />
 </root>

@@ -135,6 +135,15 @@
       "Math"
     ]
   },
+  "ta.dynamics2velocity": {
+    "digest": "Convert Dynamics to MIDI velocity",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Notes",
+      "Math" 
+    ]
+  },
   "ta.emptymessagefilter": {
     "digest": "Filter Max's empty messages",  
     "module": "max",
@@ -423,6 +432,15 @@
     "module": "max",
     "category": [
       "Math"
+    ]
+  },
+  "ta.velocity2dynamics": {
+    "digest": "Convert MIDI velocity to Dynamics",
+    "module": "max",
+    "category": [
+      "MIDI",
+      "Notes",
+      "Math" 
     ]
   },
     "ta.vpr2note": {
