@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 166.0, 170.0, 700.0, 454.0 ],
@@ -33,6 +34,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -59,8 +61,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 166.0, 196.0, 700.0, 428.0 ],
@@ -208,8 +211,8 @@
 									"id" : "obj-36",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
+									"numoutlets" : 9,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 									"patching_rect" : [ 513.0, 120.0, 113.5, 18.0 ],
 									"text" : "info~ grain_wave"
 								}
@@ -324,11 +327,12 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 29.0, 69.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -356,8 +360,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 100.0, 262.0, 18.0 ],
-													"text" : "loadmess prefix ./patches/OI_LIB/_metadata/waveforms/"
+													"patching_rect" : [ 50.0, 100.0, 264.0, 18.0 ],
+													"text" : "loadmess prefix ./packages/TA-Library/media/waveforms/"
 												}
 
 											}
@@ -417,7 +421,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 503.0, 282.0, 110.0, 18.0 ],
 									"pattrmode" : 1,
-									"prefix" : "p1nh0_HD:/Applications/Max6/patches/OI_LIB/_metadata/waveforms/",
+									"prefix" : "Macintosh HD:/Applications/Max 6.1/packages/TA-Library/media/waveforms/",
 									"varname" : "umenu"
 								}
 
@@ -597,13 +601,13 @@
 									"patching_rect" : [ 281.0, 225.0, 48.0, 136.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "live.gain~",
-											"parameter_longname" : "live.gain~",
 											"parameter_unitstyle" : 4,
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0
+											"parameter_type" : 0,
+											"parameter_shortname" : "live.gain~",
+											"parameter_longname" : "live.gain~"
 										}
 
 									}
@@ -624,7 +628,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 281.0, 155.0, 70.0, 18.0 ],
+									"patching_rect" : [ 281.0, 155.0, 72.0, 18.0 ],
 									"text" : "gen~ ta.grain"
 								}
 
@@ -681,6 +685,7 @@
 									"border" : 0,
 									"filename" : "helpdetails.js",
 									"id" : "obj-2",
+									"ignoreclick" : 1,
 									"jsarguments" : [ "ta.grain" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
@@ -939,6 +944,7 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "ta.grain" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -961,8 +967,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 700.0, 428.0 ],
@@ -1016,29 +1023,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ta.grain.gendsp",
-				"bootpath" : "/Applications/Max6/patches/OI_LIB/Utilities(objects)/MSP/GEN",
-				"patcherrelativepath" : "../GEN",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

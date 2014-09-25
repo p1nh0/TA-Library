@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 700.0, 454.0 ],
+		"rect" : [ 428.0, 137.0, 700.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -121,7 +121,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 363.0, 305.0, 53.0, 17.0 ],
-									"presentation_rect" : [ 455.0, 256.0, 0.0, 0.0 ],
 									"text" : "mode $1"
 								}
 
@@ -135,7 +134,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 40.0, 405.0, 86.0, 19.0 ],
-									"presentation_rect" : [ 3.0, 385.0, 0.0, 0.0 ],
 									"text" : "print @popup 1"
 								}
 
@@ -163,7 +161,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 415.0, 200.0, 96.0, 17.0 ],
-									"presentation_rect" : [ 364.0, 225.0, 0.0, 0.0 ],
 									"text" : "mode note, $1 $2"
 								}
 
@@ -207,7 +204,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 415.0, 166.5, 84.0, 18.0 ],
-									"presentation_rect" : [ 366.0, 193.5, 0.0, 0.0 ],
 									"text" : "pack"
 								}
 
@@ -234,6 +230,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-29",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
@@ -253,7 +250,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 310.0, 86.0, 76.0, 21.0 ],
-									"presentation_rect" : [ 270.0, 82.0, 0.0, 0.0 ],
 									"prototypename" : "oi.help_digest",
 									"text" : "Input Mode",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
@@ -285,7 +281,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 181.0, 315.5, 73.0, 17.0 ],
-									"presentation_rect" : [ 254.0, 196.0, 0.0, 0.0 ],
 									"text" : "-1 1 -2 2 -3 3"
 								}
 
@@ -638,7 +633,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 100.0, 126.0, 700.0, 428.0 ],
+						"rect" : [ 428.0, 163.0, 700.0, 428.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 11.0,
@@ -742,7 +737,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 312.5, 352.0, 99.0, 23.0 ],
+									"patching_rect" : [ 314.5, 352.0, 99.0, 23.0 ],
 									"text" : "filtered interval"
 								}
 
@@ -784,7 +779,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 264.0, 355.0, 47.0, 17.0 ],
+									"patching_rect" : [ 266.0, 355.0, 47.0, 17.0 ],
 									"text" : "1"
 								}
 
@@ -826,7 +821,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 292.0, 245.0, 95.0, 17.0 ],
+									"patching_rect" : [ 294.0, 245.0, 95.0, 17.0 ],
 									"text" : "0 1 6 11 12 17 36"
 								}
 
@@ -843,7 +838,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 190.0, 285.0, 121.0, 18.0 ],
+									"patching_rect" : [ 190.0, 285.0, 123.0, 18.0 ],
 									"text" : "ta.filterintervals 0 1 6 12"
 								}
 
@@ -1083,15 +1078,15 @@
 			}
 , 			{
 				"name" : "ta.filterintervals.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/MIDI",
-				"patcherrelativepath" : "../patchers/o-max/MIDI",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/ta-max/MIDI",
+				"patcherrelativepath" : "../patchers/ta-max/MIDI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ta.abs.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/o-max/Math",
-				"patcherrelativepath" : "../patchers/o-max/Math",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/ta-max/Math",
+				"patcherrelativepath" : "../patchers/ta-max/Math",
 				"type" : "JSON",
 				"implicit" : 1
 			}

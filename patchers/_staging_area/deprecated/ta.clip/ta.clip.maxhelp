@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 457.0, 132.0, 700.0, 589.0 ],
+		"rect" : [ 100.0, 100.0, 700.0, 589.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -34,6 +34,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -65,7 +66,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 457.0, 158.0, 700.0, 563.0 ],
+						"rect" : [ 100.0, 126.0, 700.0, 563.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -86,6 +87,23 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 521.0, 68.0, 150.0, 55.0 ],
+									"text" : "Max's 'clip' object already handles lists"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -113,7 +131,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 395.0, 425.0, 96.0, 18.0 ],
+									"patching_rect" : [ 395.0, 425.0, 98.0, 18.0 ],
 									"text" : "ta.clip @mode min"
 								}
 
@@ -413,7 +431,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 97.0, 505.0, 53.0, 18.0 ],
+									"patching_rect" : [ 97.0, 505.0, 55.0, 18.0 ],
 									"text" : "ta.clip 0 1"
 								}
 
@@ -701,7 +719,7 @@
 			}
 , 			{
 				"name" : "ta.clip.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Open-Library/patchers/_staging_area/deprecated/ta.clip",
+				"bootpath" : "/Applications/Max 6.1/packages/TA-Library/patchers/_staging_area/deprecated/ta.clip",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
