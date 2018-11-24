@@ -8,3 +8,9 @@ TA-Library
 
 Collection of MaxMSP abstractions
 
+
+
+
+### Installation Instructions
+
+Move the folder to your Max folder under Documents
